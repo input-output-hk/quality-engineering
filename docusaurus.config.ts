@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
 	title: 'Quality Engineering',
-	tagline: 'Your comprehensive guide to our engineering standards, practices, processes, and tools',
+	tagline: 'Your comprehensive guide to our engineering standards, practices, processes, and tools.',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -34,6 +34,7 @@ const config: Config = {
 			'classic',
 			{
 				docs: {
+					routeBasePath: '/',
 					sidebarPath: './sidebars.ts',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
@@ -86,8 +87,16 @@ const config: Config = {
 					title: 'Docs',
 					items: [
 						{
-							label: 'Tutorial',
-							to: '/docs/intro',
+							label: 'Quality Maturity Model',
+							to: '/quality-maturity-model',
+						},
+						{
+							label: 'Quality Strategy',
+							to: '/quality-strategy',
+						},
+						{
+							label: 'Knowledge Hub',
+							to: '/knowledge-hub',
 						},
 					],
 				},

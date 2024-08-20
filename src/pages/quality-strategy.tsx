@@ -7,13 +7,13 @@ const features = [
 		title: 'Objectives',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
 		image: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-		href: '/quality-strategy/objectives',
+		href: '/quality-strategy/overview',
 	},
 	{
 		title: 'Benefits',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
 		image: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-		href: '/quality-strategy/benefits',
+		href: '/quality-strategy/overview',
 	},
 	{
 		title: 'How It Works',

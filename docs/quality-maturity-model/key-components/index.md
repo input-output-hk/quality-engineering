@@ -4,7 +4,7 @@
 
 At the project level, the review is designed to provide a comprehensive view of the software quality maturity spectrum, focusing on key dimensions that impact the entire software development life cycle. Each dimension serves a unique purpose and collectively paints a holistic picture of the project's maturity and areas of improvement.
 
--   [**Practices & processes**](./practices-processes.md): assess the consistency, documentation, and clarity of processes and practices across teams at the project level.
+-   [**Practices & processes**](practices-processes.md): assess the consistency, documentation, and clarity of processes and practices across teams at the project level.
 -   **Collaboration & communication**: assess the consistency, clarity, and transparency of inter-team interactions, and decision-making processes at the project level.
 -   **Product specification**: focuses on the clarity of product vision, user experience design, continuous product discovery practices, detailed product specification, and the integration of user and stakeholder feedback into the development process.
 -   **Requirements management**: this evaluates how effectively the project gathers, prioritizes, and manages user and system requirements, ensuring alignment throughout the development lifecycle.

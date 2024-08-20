@@ -25,7 +25,10 @@ const sidebars: SidebarsConfig = {
 						type: 'doc',
 						id: 'quality-maturity-model/key-components/index',
 					},
-					items: ['quality-maturity-model/key-components/practices-processes'],
+					items: [
+						'quality-maturity-model/key-components/practices-processes/index',
+						'quality-maturity-model/key-components/collaboration-communication/index',
+					],
 				},
 				'quality-maturity-model/resources',
 			],

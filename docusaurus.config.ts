@@ -66,12 +66,8 @@ const config: Config = {
 
 			// TODO:
 			items: [
-				{
-					type: 'docSidebar',
-					sidebarId: 'docsSidebar',
-					position: 'left',
-					label: 'Docs',
-				},
+				{ to: '/quality-maturity-model', label: 'Quality Maturity Model', position: 'left' },
+				{ to: '/quality-strategy', label: 'Quality Strategy', position: 'left' },
 				{ to: '/blog', label: 'Blog', position: 'left' },
 				{
 					href: 'https://github.com/input-output-hk/Quality-Engineering',

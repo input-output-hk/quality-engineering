@@ -20,7 +20,7 @@ const sidebars: SidebarsConfig = {
 				'quality-maturity-model/how-it-works',
 				{
 					type: 'category',
-					label: 'Key Components',
+					label: 'Key components',
 					link: {
 						type: 'doc',
 						id: 'quality-maturity-model/key-components/index',
@@ -46,7 +46,20 @@ const sidebars: SidebarsConfig = {
 			],
 		},
 		{
-			'Quality Strategy': ['quality-strategy/overview'],
+			'Quality Strategy': [
+				'quality-strategy/getting-started',
+				'quality-strategy/overview',
+				'quality-strategy/background',
+				'quality-strategy/how-it-works',
+				{
+					Resources: [
+						'quality-strategy/resources/faqs',
+						'quality-strategy/resources/quality-strategy-template',
+						'quality-strategy/resources/system-level-test-strategy-template',
+						'quality-strategy/resources/tips-and-tricks-for-creating-quality-strategies',
+					],
+				},
+			],
 		},
 	],
 

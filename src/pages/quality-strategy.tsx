@@ -25,7 +25,7 @@ const features = [
 		title: 'Resources',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
 		image: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-		href: '/quality-strategy/resources',
+		href: '/quality-strategy/resources/faqs',
 	},
 ];
 

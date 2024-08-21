@@ -48,7 +48,7 @@ Systematizing software engineering work ensures it becomes ingrained in the orga
 
 ## Dimensions and levels
 
-![TODO:](/img/quality-maturity-model/radar-chart.png)
+![Example radar chart](/img/quality-maturity-model/radar-chart.png)
 
 Think of our software quality maturity model as a **multi-faceted radar chart**. Each facet, or dimension, represents a critical area of software quality. Each dimension is divided into five levels, ranging from 1 to 5, with level 1 being the basic understanding and level 5 signifying mastery.
 
@@ -62,7 +62,7 @@ In terms of levels within each dimension, it's important to understand the nuanc
 -   **Level 4**: introduces the power of data, enabling better, data-based decisions based on relevant metrics.
 -   **Level 5**: the project is not just following practices. Rather, it's continuously improving, learning from data and experience to continuously refine the approach. This implies early problem detection and prevention, ensuring potential challenges are addressed even before they surface.
 
-![TODO:](/img/quality-maturity-model/reactive-proactive.png)
+![Reactive vs. proactive](/img/quality-maturity-model/reactive-proactive.png)
 
 This tiered model provides a clear roadmap for **continuous improvement**, enabling projects and organizations to set goals, assess effectiveness, and adapt proactively.
 

@@ -26,7 +26,7 @@ Poor software quality drains resources and erodes trust.
 
 The true cost of poor software is not just in dollars, but in **lost trust and opportunities**.
 
-<img class="small" src="/img/quality-strategy/cost-of-poor-software.png" alt="TODO:" />
+<img class="small" src="/img/quality-strategy/cost-of-poor-software.png" alt="Cost of poor software" />
 
 ## The complexity of software engineering
 
@@ -40,7 +40,7 @@ In this field, **success** is about delivering **real value** to users and creat
 
 IO's here to create impactful products that resonate with users' needs, delivering solutions that enhance lives and drive the business forward.
 
-<img class="small" src="/img/quality-strategy/targets.png" alt="TODO:" />
+<img class="small" src="/img/quality-strategy/targets.png" alt="Targets illustration" />
 
 ## Strategy & quality
 

@@ -57,7 +57,7 @@ While quality is everyone's responsibility, it can paradoxically become no one's
 
 The **project/team leadership** is accountable for ensuring that the software meets the necessary quality standards. They are also responsible for the quality strategy and signing off on the quality of the delivered product. **As leaders, it's IO's duty to craft clear strategies for the successful delivery of software functionalities**. Once that vision and roadmap are in place, the next step is to ensure teams are aligned and moving in the same direction. Let's collaborate and lead with purpose.
 
-Additional information is available on the FAQ page [TODO:here](#) and [TODO:here](#).
+Additional information is available on the FAQ page [here](../quality-strategy/resources/faqs.md#whos-responsible-for-creating-and-reviewing-the-quality-strategy) and [here](../quality-strategy/resources/faqs.md#why-shouldnt-software-testing-engineers-be-solely-responsible-for-creating-the-quality-strategies).
 
 ## Shift left
 

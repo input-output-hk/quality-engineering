@@ -24,9 +24,7 @@ At the project level, the review is designed to provide a comprehensive view of 
 -   Holistic view of strengths, weaknesses, and progress
 -   Promotes inward reflection and improvement plans
 
-<!-- TODO: Images need borders -->
-
-![TODO:](/img/quality-maturity-model/radar-chart.png)
+![Example radar chart](/img/quality-maturity-model/radar-chart.png)
 
 ## Summary review & report
 

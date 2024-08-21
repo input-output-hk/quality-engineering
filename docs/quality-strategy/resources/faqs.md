@@ -8,7 +8,7 @@ The following conversation is:
 -   all too common
 -   easily prevented
 
-![TODO:](/img/quality-strategy/conversation.png)
+![Example conversation](/img/quality-strategy/conversation.png)
 
 ## How do you prevent it?
 
@@ -28,7 +28,7 @@ Let’s not be too dogmatic about it. If you start adding detailed Acceptance Cr
 
 Writing enables better structuring of thoughts. Writing doesn’t just clarify your existing ideas; it generates more of them.
 
-<img class="small" src="/img/quality-strategy/clarity.png" alt="TODO:" />
+<img class="small" src="/img/quality-strategy/clarity.png" alt="Clarity illustration" />
 
 A quality strategy enhances transparency, clarity, and confidence regarding the project's strategy, approaches, current status, and potential risks. It also provides a comprehensive view of the product or feature vision, a clear definition of success, and the metrics used to evaluate success.
 
@@ -190,13 +190,13 @@ Furthermore, a quality strategy can help to reduce the risk of costly errors and
 
 Finally, many aspects of a quality strategy, such as testing and continuous integration, can be automated, reducing the need for manual effort and lowering costs over time.
 
-![TODO:](/img/quality-strategy/fast-cheap-good.png)
+![Fast vs. cheap vs. good](/img/quality-strategy/fast-cheap-good.png)
 
 ### A software quality strategy might hamper the creativity of the development team
 
 The quality strategy serves as a guiding framework for the team/project, highlighting the essential actions required to build top-notch products. However, it doesn't prescribe specific methods or processes. Instead, it empowers the team with the autonomy and creative freedom to determine the best approach and techniques to achieve the desired quality outcomes. This balance ensures that while quality remains a core focus, innovation and adaptability are not compromised.
 
-<img class="small" src="/img/quality-strategy/rulebooks-frameworks.png" alt="TODO:" />
+<img class="small" src="/img/quality-strategy/rulebooks-frameworks.png" alt="Rulebooks and frameworks" />
 
 ### A software quality strategy is only necessary for large organizations or complex software projects
 

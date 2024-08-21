@@ -32,3 +32,17 @@
 html {
 	scroll-behavior: smooth;
 }
+
+article img {
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+	display: block;
+	margin: 0 auto var(--ifm-leading);
+	max-width: 95%;
+	padding: 10px;
+}
+
+@media (min-width: 800px) {
+	article img.small {
+		max-width: 50%;
+	}
+}

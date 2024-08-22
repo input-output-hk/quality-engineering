@@ -2,7 +2,7 @@
 slug: intro-quality-engineering-blog
 title: Intro Quality Engineering Blog
 authors: [dorin]
-tags: [quality-strategu]
+tags: []
 ---
 
 ## Welcome to the Quality Engineering Odyssey!

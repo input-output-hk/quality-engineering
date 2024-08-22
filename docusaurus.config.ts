@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
 	title: 'Quality Engineering',
-	tagline: 'Your comprehensive guide to our engineering standards, practices, processes, and tools.',
+	tagline: 'Your go-to source for software engineering practices and collaborative growth.',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -83,56 +83,55 @@ const config: Config = {
 		},
 		footer: {
 			style: 'dark',
-			links: [
-				{
-					title: 'Docs',
-					items: [
-						{
-							label: 'Quality Maturity Model',
-							to: '/quality-maturity-model',
-						},
-						{
-							label: 'Quality Strategy',
-							to: '/quality-strategy',
-						},
-						{
-							label: 'Knowledge Hub',
-							to: '/knowledge-hub',
-						},
-					],
-				},
-				// TODO:
-				{
-					title: 'Community',
-					items: [
-						{
-							label: 'Stack Overflow',
-							href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-						},
-						{
-							label: 'Discord',
-							href: 'https://discordapp.com/invite/docusaurus',
-						},
-						{
-							label: 'Twitter',
-							href: 'https://twitter.com/docusaurus',
-						},
-					],
-				},
-				{
-					title: 'More',
-					items: [
-						{
-							label: 'Blog',
-							to: '/blog',
-						},
-						{
-							label: 'GitHub',
-							href: 'https://github.com/input-output-hk/Quality-Engineering',
-						},
-					],
-				},
-			],
+			// links: [
+			// 	{
+			// 		title: 'Docs',
+			// 		items: [
+			// 			{
+			// 				label: 'Quality Maturity Model',
+			// 				to: '/quality-maturity-model',
+			// 			},
+			// 			{
+			// 				label: 'Quality Strategy',
+			// 				to: '/quality-strategy',
+			// 			},
+			// 			{
+			// 				label: 'Knowledge Hub',
+			// 				to: '/knowledge-hub',
+			// 			},
+			// 		],
+			// 	},
+			// 	{
+			// 		title: 'Community',
+			// 		items: [
+			// 			{
+			// 				label: 'Stack Overflow',
+			// 				href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+			// 			},
+			// 			{
+			// 				label: 'Discord',
+			// 				href: 'https://discordapp.com/invite/docusaurus',
+			// 			},
+			// 			{
+			// 				label: 'Twitter',
+			// 				href: 'https://twitter.com/docusaurus',
+			// 			},
+			// 		],
+			// 	},
+			// 	{
+			// 		title: 'More',
+			// 		items: [
+			// 			{
+			// 				label: 'Blog',
+			// 				to: '/blog',
+			// 			},
+			// 			{
+			// 				label: 'GitHub',
+			// 				href: 'https://github.com/input-output-hk/Quality-Engineering',
+			// 			},
+			// 		],
+			// 	},
+			// ],
 			copyright: `Copyright © ${new Date().getFullYear()} IOG, Inc. Built with Docusaurus.`,
 		},
 		prism: {

@@ -48,11 +48,7 @@ Strategy in software development refers to a high-level plan targeting long-term
 
 Quality in software products is a comprehensive measure of how well the software aligns with the intended design, satisfies user needs, and remains resilient against various challenges or changes. It's not just about being bug-free; it's about delivering value, ensuring safety, and providing a positive user experience.
 
-:::note
-
-What is your (quality) strategy?
-
-:::
+![What is your quality strategy?](/img/quality-strategy/what-is-your-quality-strategy.png)
 
 ## Quality: the foundation of IO's work
 

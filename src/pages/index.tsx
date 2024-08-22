@@ -25,5 +25,11 @@ const features = [
 export default function Home(): JSX.Element {
 	const { siteConfig } = useDocusaurusContext();
 
-	return <LandingPage title={siteConfig.title} tagline={siteConfig.tagline} features={features} />;
+	return (
+		<LandingPage
+			title="Welcome to IO's Quality Engineering Space!"
+			tagline={siteConfig.tagline}
+			features={features}
+		/>
+	);
 }

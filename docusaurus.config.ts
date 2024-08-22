@@ -34,7 +34,7 @@ const config: Config = {
 			'classic',
 			{
 				docs: {
-					routeBasePath: '/',
+					// routeBasePath: '/',
 					sidebarPath: './sidebars.ts',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
@@ -66,8 +66,14 @@ const config: Config = {
 
 			// TODO:
 			items: [
-				{ to: '/quality-maturity-model', label: 'Quality Maturity Model', position: 'left' },
-				{ to: '/quality-strategy', label: 'Quality Strategy', position: 'left' },
+				{
+					type: 'docSidebar',
+					sidebarId: 'docsSidebar',
+					position: 'left',
+					label: 'Docs',
+				},
+				// { to: '/quality-maturity-model', label: 'Quality Maturity Model', position: 'left' },
+				// { to: '/quality-strategy', label: 'Quality Strategy', position: 'left' },
 				{ to: '/blog', label: 'Blog', position: 'left' },
 				{
 					href: 'https://github.com/input-output-hk/Quality-Engineering',

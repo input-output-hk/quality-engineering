@@ -61,6 +61,16 @@ const sidebars: SidebarsConfig = {
 				},
 			],
 		},
+		{
+			'Knowledge Hub': [
+				'knowledge-hub/getting-started',
+				'knowledge-hub/core-engineering-processes',
+				'knowledge-hub/checklist-templates',
+				'knowledge-hub/guidelines-and-proven-practices',
+				'knowledge-hub/educational',
+				'knowledge-hub/engineering-onboarding',
+			],
+		},
 	],
 
 	// But you can create a sidebar manually

@@ -4,21 +4,24 @@ import { LandingPage } from '@site/src/components/landing-page';
 const features = [
 	{
 		title: 'Quality Maturity Model',
-		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+		description:
+			'Our peer-review, evidence-based tool to support projects deliver high-quality products effectively and efficiently.',
 		image: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-		href: '/quality-maturity-model',
+		href: '/docs/quality-maturity-model/overview',
 	},
 	{
 		title: 'Quality Strategy',
-		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+		description:
+			'A comprehensive tool that guides our projects through the process of envisioning and achieving success.',
 		image: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-		href: '/quality-strategy',
+		href: '/docs/quality-strategy/getting-started',
 	},
 	{
 		title: 'Knowledge Hub',
-		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+		description:
+			'Central hub for collaborative knowledge sharing and evolving quality engineering strategies, practices, and processes.',
 		image: require('@site/static/img/undraw_docusaurus_react.svg').default,
-		href: '/knowledge-hub',
+		href: '/docs/knowledge-hub/getting-started',
 	},
 ];
 

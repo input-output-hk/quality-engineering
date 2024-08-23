@@ -37,6 +37,6 @@ Join us on this exciting journey, filled with stories, lessons, challenges, and 
 
 Remember, quality in software is like a well-cooked meal - every ingredient matters, and everyone at the table plays a part.
 
-Your voice matters and [we are here](https://input-output.atlassian.net/wiki/spaces/CI/pages/4001005586) to listen, engage, and move forward with you. Welcome to our community of quality enthusiasts!
+Your voice matters and we are here to listen, engage, and move forward with you. Welcome to our community of quality enthusiasts!
 
 Subscribe to the blog and become a part of our community. Be the first to get the latest insights and join the conversation as we publish new stories.

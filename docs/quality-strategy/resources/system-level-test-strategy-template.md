@@ -44,9 +44,7 @@ experience (UX), user personas and user stories, all from the perspective of the
 
 ## Test Approach
 
-Outline and explain the e2e tests [types](https://input-output.atlassian.net/wiki/spaces/CI/pages/3754492134) and
-[techniques](https://input-output.atlassian.net/wiki/spaces/CI/pages/3781787862) to be performed, and the rationale
-behind these choices, including manual vs. automated testing.
+Outline and explain the e2e tests types andtechniques to be performed, and the rationale behind these choices, including manual vs. automated testing.
 
 Describe the environment in which system testing will take place, including hardware and software requirements.
 

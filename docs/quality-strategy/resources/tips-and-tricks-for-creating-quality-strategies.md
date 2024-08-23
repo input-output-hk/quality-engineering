@@ -4,7 +4,7 @@
 
 The objective of the **Quality Strategy** is to ensure that software products are built with quality in mind and to guide the teams and organisations through the validation processes required to deliver high-quality products.
 
-The Quality Strategy should offer a clear overview of the team/tribe's approach to planning, assuring (building), and validating the quality of the software product throughout the [software development life cycle (SDLC)](https://input-output.atlassian.net/wiki/spaces/CI/pages/3754491905/Software+Development+Life+Cycle+SDLC).
+The Quality Strategy should offer a clear overview of the team/tribe's approach to planning, assuring (building), and validating the quality of the software product throughout the software development life cycle (SDLC).
 
 :::
 

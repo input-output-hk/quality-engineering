@@ -1,6 +1,6 @@
 # How it works
 
-<img class="small" src="/img/quality-maturity-model/illustration-strategy.png" alt="Strategy illustration" />
+<img className="small" src="/img/quality-maturity-model/illustration-strategy.png" alt="Strategy illustration" />
 
 ## The process
 

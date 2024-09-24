@@ -42,7 +42,11 @@ const sidebars: SidebarsConfig = {
 						'quality-maturity-model/key-components/vendor-integration/index',
 					],
 				},
-				'quality-maturity-model/resources',
+				{
+					type: 'category',
+					label: 'Resources',
+					items: ['quality-maturity-model/resources/faqs'],
+				},
 			],
 		},
 		{

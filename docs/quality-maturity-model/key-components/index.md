@@ -34,4 +34,4 @@ The **summary review** offers a detailed snapshot of each project’s quality ma
 
 -   **Record keeping**: whenever a project joins the framework or achieves a new level, the program mentor updates this milestone on the program tracking page.
 
-Additional information is available on the [FAQ page here](../resources.md#faqs).
+Additional information is available on the [FAQ page here](../resources/faqs.md).

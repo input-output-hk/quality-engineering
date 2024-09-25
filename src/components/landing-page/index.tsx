@@ -1,21 +1,26 @@
-import clsx from 'clsx';
 import styles from './styles.module.css';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import clsx from 'clsx';
 
 type HeaderProps = {
-	title: string;
-	tagline: string;
+	title: React.ReactElement;
 };
 
-const Header = ({ title, tagline }: HeaderProps) => (
-	<header className={clsx('hero hero--primary', styles.heroBanner)}>
-		<div className="container">
-			<Heading as="h1" className="hero__title">
+const Header = ({ title }: HeaderProps) => (
+	<header className={styles.heroBanner}>
+		<div className={styles.heroContent}>
+			<Heading as="h1" className={styles.heroTitle}>
 				{title}
 			</Heading>
-			<p className={clsx('hero__subtitle', styles.heroSubtitle)}>{tagline}</p>
+
+			<img
+				className={styles.heroImage}
+				src="/img/shapes-illustration.svg"
+				alt="Banner illustration"
+				aria-hidden
+			/>
 		</div>
 	</header>
 );
@@ -23,24 +28,24 @@ const Header = ({ title, tagline }: HeaderProps) => (
 type FeatureProps = {
 	title: string;
 	description: string;
-	image: React.ComponentType<React.ComponentProps<'svg'>>;
+	image: string;
 	href: string;
 };
 
-const Feature = ({ title, image: Image, description, href, className }: FeatureProps & { className?: string }) => (
-	<div className={className}>
-		<div className="text--center">
-			<Link href={href}>
-				<Image className={styles.featureSvg} role="img" />
-			</Link>
+const Feature = ({ title, image, description, href }: FeatureProps) => (
+	<div className={styles.feature}>
+		<Link href={href} className={styles.featureHeading}>
+			<Heading as="h3">{title}</Heading>
+		</Link>
+
+		<div className={styles.featureContent}>
+			<img src={image} className={styles.featureImage} role="img" />
+
+			<p className={styles.featureDescription}>{description}</p>
 		</div>
 
-		<div className="text--center padding-horiz--md">
-			<Link href={href}>
-				<Heading as="h3">{title}</Heading>
-			</Link>
-
-			<p>{description}</p>
+		<div className={styles.featureCta}>
+			<Link href={href}>Learn more</Link>
 		</div>
 	</div>
 );
@@ -49,23 +54,25 @@ type Props = HeaderProps & {
 	features: FeatureProps[];
 };
 
-export const LandingPage = ({ title, tagline, features }: Props) => {
-	const className = `col col--${Math.ceil(12 / features.length)}`;
-
+export const LandingPage = ({ title, features }: Props) => {
 	return (
 		<Layout>
-			<Header title={title} tagline={tagline} />
+			<Header title={title} />
 
 			<main>
-				<section className={styles.features}>
+				<section className={styles.featuresSection}>
 					<div className="container">
-						<div className="row">
+						<div className={styles.features}>
 							{features.map((props, idx) => (
-								<Feature key={idx} className={className} {...props} />
+								<Feature key={idx} {...props} />
 							))}
 						</div>
 					</div>
 				</section>
+
+				<div className={clsx('container', styles.illustration)}>
+					<img src="/img/shapes-illustration.svg" alt="Illustration" aria-hidden />
+				</div>
 			</main>
 		</Layout>
 	);

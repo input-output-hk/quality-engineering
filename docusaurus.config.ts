@@ -55,13 +55,18 @@ const config: Config = {
 
 	themeConfig: {
 		// TODO: Replace with your project's social card
-		image: 'img/docusaurus-social-card.jpg',
+		// image: 'img/docusaurus-social-card.jpg',
+		colorMode: {
+			disableSwitch: true,
+		},
 		navbar: {
 			title: 'Quality Engineering',
 			// TODO:
 			logo: {
-				alt: 'My Site Logo',
+				alt: 'IO Quality Engineering',
 				src: 'img/logo.svg',
+				height: 28,
+				width: 45,
 			},
 
 			// TODO:
@@ -69,16 +74,15 @@ const config: Config = {
 				{
 					type: 'docSidebar',
 					sidebarId: 'docsSidebar',
-					position: 'left',
+					position: 'right',
 					label: 'Docs',
 				},
-				// { to: '/quality-maturity-model', label: 'Quality Maturity Model', position: 'left' },
-				// { to: '/quality-strategy', label: 'Quality Strategy', position: 'left' },
-				{ to: '/blog', label: 'Blog', position: 'left' },
+				{ to: '/blog', label: 'Blog', position: 'right' },
 				{
 					href: 'https://github.com/input-output-hk/Quality-Engineering',
-					label: 'GitHub',
 					position: 'right',
+					className: 'header-github-link',
+					'aria-label': 'GitHub repository',
 				},
 			],
 		},
@@ -88,63 +92,42 @@ const config: Config = {
 			},
 		},
 		footer: {
-			style: 'dark',
-			// links: [
-			// 	{
-			// 		title: 'Docs',
-			// 		items: [
-			// 			{
-			// 				label: 'Quality Maturity Model',
-			// 				to: '/quality-maturity-model',
-			// 			},
-			// 			{
-			// 				label: 'Quality Strategy',
-			// 				to: '/quality-strategy',
-			// 			},
-			// 			{
-			// 				label: 'Knowledge Hub',
-			// 				to: '/knowledge-hub',
-			// 			},
-			// 		],
-			// 	},
-			// 	{
-			// 		title: 'Community',
-			// 		items: [
-			// 			{
-			// 				label: 'Stack Overflow',
-			// 				href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-			// 			},
-			// 			{
-			// 				label: 'Discord',
-			// 				href: 'https://discordapp.com/invite/docusaurus',
-			// 			},
-			// 			{
-			// 				label: 'Twitter',
-			// 				href: 'https://twitter.com/docusaurus',
-			// 			},
-			// 		],
-			// 	},
-			// 	{
-			// 		title: 'More',
-			// 		items: [
-			// 			{
-			// 				label: 'Blog',
-			// 				to: '/blog',
-			// 			},
-			// 			{
-			// 				label: 'GitHub',
-			// 				href: 'https://github.com/input-output-hk/Quality-Engineering',
-			// 			},
-			// 		],
-			// 	},
-			// ],
-			copyright: `Copyright © ${new Date().getFullYear()} IOG, Inc. Built with Docusaurus.`,
+			logo: {
+				alt: 'IOG',
+				src: 'img/logo-small.svg',
+			},
+			copyright: `Copyright © ${new Date().getFullYear()} IOG, Inc.`,
 		},
 		prism: {
 			theme: prismThemes.github,
 			darkTheme: prismThemes.dracula,
 		},
 	} satisfies Preset.ThemeConfig,
+
+	headTags: [
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'preconnect',
+				href: 'https://fonts.googleapis.com',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'preconnect',
+				href: 'https://fonts.gstatic.com',
+				crossOrigin: 'true',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				href: 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap',
+				rel: 'stylesheet',
+			},
+		},
+	],
 };
 
 export default config;

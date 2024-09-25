@@ -32,6 +32,12 @@
 	--ifm-container-width: 1184px;
 }
 
+@media (min-width: 996px) {
+	:root {
+		--ifm-navbar-height: 6rem;
+	}
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 /* [data-theme='dark'] {
 	--ifm-color-primary: #25c2a0;
@@ -70,12 +76,6 @@ article .img-reference {
 	max-width: 90%;
 }
 
-@media (min-width: 996px) {
-	:root {
-		--ifm-navbar-height: 6rem;
-	}
-}
-
 .navbar__toggle {
 	order: 9999;
 	margin-left: auto;
@@ -88,8 +88,10 @@ article .img-reference {
 	color: var(--color-grey-2);
 	margin-left: 0.5rem;
 	display: none;
+}
 
-	@media (min-width: 500px) {
+@media (min-width: 500px) {
+	.navbar__title {
 		display: block;
 	}
 }

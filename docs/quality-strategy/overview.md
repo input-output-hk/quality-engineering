@@ -99,7 +99,12 @@ The **objective** of the quality strategy is to ensure that software products ar
 
 Quality strategies can help streamline the software development process, leading to faster delivery times. By catching defects early and ensuring that software is delivered with fewer defects, teams can release software products faster.
 
-![Fast vs. cheap vs. good](/img/quality-strategy/fast-cheap-good.png)
+<figure>
+	<img src="/img/quality-strategy/fast-cheap-good.png" alt="Fast vs. cheap vs. good" />
+
+    <p className="img-reference">Sources: https://martinfowler.com/articles/is-quality-worth-cost.html, https://mike-bland.com/2023/10/12/what-software-quality-is-and-why-it-matters.html.</p>
+
+</figure>
 
 ### Stronger reputation and brand image
 

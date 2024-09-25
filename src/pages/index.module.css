@@ -56,12 +56,6 @@
 	}
 }
 
-.buttons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .featuresSection {
 	background: var(--color-white-3);
 }

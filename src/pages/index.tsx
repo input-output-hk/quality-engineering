@@ -1,5 +1,8 @@
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { LandingPage } from '@site/src/components/landing-page';
+import Link from '@docusaurus/Link';
+import Heading from '@theme/Heading';
+import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import styles from './index.module.css';
 
 const features = [
 	{
@@ -26,17 +29,67 @@ const features = [
 ];
 
 export default function Home(): JSX.Element {
-	const { siteConfig } = useDocusaurusContext();
-
 	return (
-		// TODO: This doesn't need to be abstracted anymore as it's not used elsewhere
-		<LandingPage
-			title={
-				<>
-					Welcome to <span>IO's</span> Quality Engineering Space!
-				</>
-			}
-			features={features}
-		/>
+		<Layout>
+			<Header />
+
+			<main>
+				<section className={styles.featuresSection}>
+					<div className="container">
+						<div className={styles.features}>
+							{features.map((props, idx) => (
+								<Feature key={idx} {...props} />
+							))}
+						</div>
+					</div>
+				</section>
+
+				<div className={clsx('container', styles.illustration)}>
+					<img src="/img/shapes-illustration.svg" alt="Illustration" aria-hidden />
+				</div>
+			</main>
+		</Layout>
 	);
 }
+
+const Header = () => (
+	<header className={styles.heroBanner}>
+		<div className={styles.heroContent}>
+			<Heading as="h1" className={styles.heroTitle}>
+				Welcome to <span>IO's</span> Quality Engineering Space!
+			</Heading>
+
+			<img
+				className={styles.heroImage}
+				src="/img/shapes-illustration.svg"
+				alt="Banner illustration"
+				aria-hidden
+			/>
+		</div>
+	</header>
+);
+
+type FeatureProps = {
+	title: string;
+	description: string;
+	image: string;
+	href: string;
+};
+
+const Feature = ({ title, image, description, href }: FeatureProps) => (
+	<div className={styles.feature}>
+		<Link href={href} className={styles.featureHeading}>
+			<Heading as="h3">{title}</Heading>
+		</Link>
+
+		<div className={styles.featureContent}>
+			<img src={image} className={styles.featureImage} role="img" />
+
+			<p className={styles.featureDescription}>{description}</p>
+		</div>
+
+		<div className={styles.featureCta}>
+			<Link href={href}>Learn more</Link>
+		</div>
+	</div>
+);

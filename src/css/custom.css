@@ -44,12 +44,6 @@
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
 
-@media (min-width: 996px) {
-	:root {
-		--ifm-navbar-height: 6rem;
-	}
-}
-
 html {
 	scroll-behavior: smooth;
 }
@@ -60,11 +54,25 @@ article img {
 	margin: 0 auto var(--ifm-leading);
 	max-width: 95%;
 	padding: 10px;
+	background-color: #fff;
 }
 
 @media (min-width: 800px) {
 	article img.small {
 		max-width: 50%;
+	}
+}
+
+article .img-reference {
+	font-size: 0.75rem;
+	text-align: center;
+	font-style: italic;
+	max-width: 90%;
+}
+
+@media (min-width: 996px) {
+	:root {
+		--ifm-navbar-height: 6rem;
 	}
 }
 

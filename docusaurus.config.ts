@@ -1,6 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import 'dotenv/config';
 
 const config: Config = {
 	title: 'Quality Engineering',
@@ -11,7 +12,7 @@ const config: Config = {
 	url: 'https://iohk.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: '/',
+	baseUrl: process.env.BASE_URL || '/',
 	trailingSlash: true,
 
 	// GitHub pages deployment config.
@@ -62,15 +63,12 @@ const config: Config = {
 		},
 		navbar: {
 			title: 'Quality Engineering',
-			// TODO:
 			logo: {
 				alt: 'IO Quality Engineering',
 				src: 'img/logo.svg',
 				height: 28,
 				width: 45,
 			},
-
-			// TODO:
 			items: [
 				{
 					type: 'docSidebar',
@@ -80,7 +78,7 @@ const config: Config = {
 				},
 				{ to: '/blog', label: 'Blog', position: 'right' },
 				{
-					href: 'https://github.com/input-output-hk/Quality-Engineering',
+					href: 'https://github.com/input-output-hk/quality-engineering',
 					position: 'right',
 					className: 'header-github-link',
 					'aria-label': 'GitHub repository',

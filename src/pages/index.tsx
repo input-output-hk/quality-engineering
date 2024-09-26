@@ -9,21 +9,21 @@ const features = [
 		title: 'Quality Maturity Model',
 		description:
 			'Our peer-review, evidence-based tool to support projects deliver high-quality products effectively and efficiently.',
-		image: '/img/qmm-icon.png',
+		image: './img/qmm-icon.png',
 		href: '/docs/quality-maturity-model/overview',
 	},
 	{
 		title: 'Quality Strategy',
 		description:
 			'A comprehensive tool that guides our projects through the process of envisioning and achieving success.',
-		image: '/img/qs-icon.png',
+		image: './img/qs-icon.png',
 		href: '/docs/quality-strategy/getting-started',
 	},
 	{
 		title: 'Knowledge Hub',
 		description:
 			'Central hub for collaborative knowledge sharing and evolving quality engineering strategies, practices, and processes.',
-		image: '/img/kb-icon.png',
+		image: './img/kb-icon.png',
 		href: '/docs/knowledge-hub/getting-started',
 	},
 ];
@@ -45,7 +45,7 @@ export default function Home(): JSX.Element {
 				</section>
 
 				<div className={clsx('container', styles.illustration)}>
-					<img src="/img/shapes-illustration.svg" alt="Illustration" aria-hidden />
+					<img src="./img/shapes-illustration.svg" alt="Illustration" aria-hidden />
 				</div>
 			</main>
 		</Layout>
@@ -61,7 +61,7 @@ const Header = () => (
 
 			<img
 				className={styles.heroImage}
-				src="/img/shapes-illustration.svg"
+				src="./img/shapes-illustration.svg"
 				alt="Banner illustration"
 				aria-hidden
 			/>

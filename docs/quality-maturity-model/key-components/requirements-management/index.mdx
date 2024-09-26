@@ -1,0 +1,60 @@
+---
+hide_table_of_contents: true
+---
+
+import Content1 from './_1.md';
+import Content2 from './_2.md';
+import Content3 from './_3.md';
+import Content4 from './_4.md';
+import Content5 from './_5.md';
+import { DimensionGrid, DimensionGridColumn } from '@site/src/components/dimension-grid';
+
+# Requirements management dimension
+
+<DimensionGrid>
+	<DimensionGridColumn title="1 - Reactive">
+		<Content1 />
+	</DimensionGridColumn>
+	<DimensionGridColumn title="2 - Managed">
+		<Content2 />
+	</DimensionGridColumn>
+	<DimensionGridColumn title="3 - Defined">
+		<Content3 />
+	</DimensionGridColumn>
+	<DimensionGridColumn title="4 - Measured">
+		<Content4 />
+	</DimensionGridColumn>
+	<DimensionGridColumn title="5 - Optimized">
+		<Content5 />
+	</DimensionGridColumn>
+</DimensionGrid>
+
+## Guiding questions
+
+1. **Consistency and Clarity in Use Stories**: How consistently do our use stories align with the real needs of our users, and what processes do we have in place to ensure this alignment is maintained throughout the development cycle?
+1. **Clarity in Acceptance Criteria**: Are our acceptance criteria clearly defined and understood by all team members? How do we verify that each criterion is testable and relevant to the user's requirements?
+1. **Comprehensiveness of Definition of Done**: How comprehensive is our 'Definition of Done' (DoD)? Does it encapsulate all necessary aspects, including coding, testing, documentation, and user acceptance, to ensure quality and completeness?
+1. **Cross-Functional Collaboration**: How are different roles (developers, testers, product owners) collaborating to define and refine user stories and acceptance criteria, and what improvements can be made to enhance collaboration?
+1. **Stakeholder Feedback Incorporation**: How efficiently are we incorporating feedback from stakeholders into our user stories and acceptance criteria, and what can we improve in this process?
+1. **Measurement and Metrics**: What metrics do we use to measure the effectiveness of our use stories, acceptance criteria, and adherence to the Definition of Done? How do these metrics guide our improvement efforts?
+1. **Adaptability and Continuous Improvement**: How do we handle changes in use stories or acceptance criteria during the project? What is our process for continuously improving these based on lessons learned?
+1. How are requirements management processes integrated with the overall software development lifecycle in your tribe?
+1. How are we ensuring that all relevant stakeholders are involved in the creation and review of user stories, acceptance criteria, and the definition of done?
+
+\*\* To guide the maturity of requirements management, various metrics can be used. Here are some potential metrics to be considered:
+
+1. **Requirements Completeness**: This metric measures whether all necessary requirements (functional, non-functional, and domain-specific) have been documented.
+1. **Traceability**: Determines if every requirement can be traced back to its source (e.g., business goals or stakeholder needs) and forward to corresponding design elements, code, and test cases.
+1. **Change Rate**: The frequency with which requirements change can give insights into their stability. A high change rate might indicate that requirements are not well understood or that there are external factors affecting the project.
+1. **Requirements Volatility**: This is the percentage of requirements that are added, deleted, or modified during a given period or project phase.
+1. **Requirement Prioritization**: Measures if all requirements are prioritized based on their importance and criticality. Prioritization helps in scope management and ensures that the most important features are developed first.
+1. **Ambiguity**: This metric can identify requirements that are unclear, vague, or can be interpreted in multiple ways, which can lead to rework or misalignment in the development process.
+1. **Verification and Validation Success Rate**: Indicates the percentage of requirements that have been successfully verified (does the system work right?) and validated (is it the right system?).
+1. **Stakeholder Engagement**: The frequency and effectiveness of interactions with stakeholders, which can be a good indication of how well their needs are being captured and addressed.
+1. **Requirements Quality**: The number of defects or bugs reported against the requirements during testing. A high defect density might indicate issues with the clarity or completeness of requirements.
+1. **Requirements Approval Time**: The time taken for stakeholders to review and approve requirements can give insights into the quality of the requirement documentation or the involvement of stakeholders.
+1. **Requirements Test Coverage**: The percentage of requirements that have corresponding test cases. It ensures that all requirements are verified through testing.
+1. **Stale Requirements**: These are requirements that have been documented but have seen no progress (like design or development) over time. A high number of stale requirements could indicate issues with project planning or prioritization.
+1. **Customer Satisfaction**:
+    1. Feedback from end-users regarding how well the final product meets the initial requirements.
+    1. The number of feature requests or enhancement suggestions post-release.

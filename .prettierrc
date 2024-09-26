@@ -1,0 +1,14 @@
+{
+	"trailingComma": "all",
+	"semi": true,
+	"singleQuote": true,
+	"printWidth": 120,
+	"useTabs": true,
+
+	"prettier/prettier": [
+		"error",
+		{
+			"endOfLine": "auto"
+		}
+	]
+}

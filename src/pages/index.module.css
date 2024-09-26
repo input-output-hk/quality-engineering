@@ -4,20 +4,166 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+	position: relative;
+	overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroContent {
+	margin: 0 auto;
+	max-width: var(--ifm-container-width);
+	padding: 5rem var(--ifm-spacing-horizontal);
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 996px) {
+	.heroContent {
+		min-height: 600px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.heroContent {
+		max-width: var(--ifm-container-width-xl);
+	}
+}
+
+.heroTitle {
+	font-size: 2rem;
+	font-weight: 300;
+	line-height: 1.33;
+	color: var(--color-grey-1);
+	letter-spacing: -1px;
+	margin: 0;
+	max-width: 443px;
+
+	span {
+		color: var(--color-red-1);
+	}
+}
+
+@media screen and (min-width: 330px) {
+	.heroTitle {
+		font-size: 3rem;
+	}
+}
+
+.heroImage {
+	display: none;
+}
+
+@media (min-width: 996px) {
+	.heroImage {
+		display: block;
+		position: absolute;
+		bottom: -13%;
+		right: var(--ifm-spacing-horizontal);
+		width: 50%;
+	}
+}
+
+.featuresSection {
+	background: var(--color-white-3);
+}
+
+.features {
+	display: grid;
+	gap: 4rem;
+	padding: 4rem 1rem;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+@media (min-width: 996px) {
+	.features {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		max-width: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.feature {
+	display: grid;
+	align-content: space-between;
+	gap: 2rem;
+}
+
+.featureContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+@media (min-width: 300px) {
+	.featureContent {
+		flex-direction: row;
+	}
+}
+
+.featureHeading {
+	color: var(--color-grey-2);
+	display: block;
+}
+.featureHeading h3 {
+	margin: 0;
+}
+
+.featureImage {
+	width: 50%;
+	max-width: 260px;
+	height: auto;
+}
+
+.featureDescription {
+	margin: 0;
+}
+
+.featureCta {
+	padding-top: 2rem;
+	border-top: 1px solid var(--color-grey-3);
+	display: flex;
+	justify-content: center;
+}
+
+.featureCta a {
+	border-radius: 0.25rem;
+	border: 1px solid var(--color-red-1);
+	background-color: var(--color-white-1);
+	color: var(--color-red-1);
+	padding: 0.5rem 1rem;
+	display: inline-block;
+	font-size: 0.875rem;
+	text-underline-offset: 4px;
+}
+
+.illustration {
+	height: 263px;
+	overflow: hidden;
+	position: relative;
+	padding-top: 3rem;
+}
+
+.illustration img {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -20px;
+	top: 40px;
+	width: 400px;
+	max-width: none;
+}
+
+@media (min-width: 996px) {
+	.illustration {
+		height: 288px;
+	}
+
+	.illustration img {
+		top: 90px;
+		left: 0;
+		width: 600px;
+	}
 }

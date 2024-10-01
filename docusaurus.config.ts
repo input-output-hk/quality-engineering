@@ -127,6 +127,8 @@ const config: Config = {
 			},
 		},
 	],
+
+	plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
 };
 
 export default config;

@@ -3,6 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import 'dotenv/config';
 
+const BASE_URL = process.env.BASE_URL || '/';
+
 const config: Config = {
 	title: 'Quality Engineering',
 	tagline: 'Your go-to source for software engineering practices and collaborative growth.',
@@ -12,7 +14,7 @@ const config: Config = {
 	url: 'https://iohk.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: process.env.BASE_URL || '/',
+	baseUrl: BASE_URL,
 	trailingSlash: true,
 
 	// GitHub pages deployment config.
@@ -49,7 +51,7 @@ const config: Config = {
 					editUrl: 'https://github.com/input-output-hk/Quality-Engineering/tree/main/',
 				},
 				theme: {
-					customCss: './src/css/custom.css',
+					customCss: ['./src/css/custom.css', './src/css/osano.css'],
 				},
 			} satisfies Preset.Options,
 		],
@@ -96,6 +98,20 @@ const config: Config = {
 				src: 'img/logo-small.svg',
 			},
 			copyright: `Copyright © ${new Date().getFullYear()} IOG, Inc.`,
+			links: [
+				{
+					label: 'Cookie Policy',
+					href: '#',
+				},
+				{
+					label: 'Privacy Policy',
+					href: 'pathname:///iog-privacy-policy.pdf',
+				},
+				{
+					label: 'Terms and Conditions',
+					href: 'pathname:///iog-terms-and-conditions.pdf',
+				},
+			],
 		},
 		prism: {
 			theme: prismThemes.github,
@@ -125,6 +141,14 @@ const config: Config = {
 				href: 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap',
 				rel: 'stylesheet',
 			},
+		},
+	],
+
+	scripts: [
+		{
+			// GDPR
+			src: 'https://cmp.osano.com/AzZXI3TYiFWNB5yus/8bcdc8bb-3840-47a2-9738-600777ee03c1/osano.js',
+			async: false,
 		},
 	],
 

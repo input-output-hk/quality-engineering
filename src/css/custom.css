@@ -26,6 +26,8 @@
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 	--ifm-footer-background-color: var(--color-grey-1);
 	--ifm-footer-color: var(--color-grey-4);
+	--ifm-footer-link-color: var(--color-grey-4);
+	--ifm-footer-link-hover-color: var(--color-white-1);
 	--ifm-font-family-base: 'Inter', sans-serif;
 	--ifm-heading-font-family: 'Lexend', sans-serif;
 	--ifm-heading-font-weight: 400;
@@ -139,6 +141,7 @@ div:has(> .dsla-search-wrapper) {
 	align-items: center;
 }
 
+.footer__link-item,
 .footer__copyright {
 	font-size: 0.875rem;
 }

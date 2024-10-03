@@ -101,7 +101,7 @@ const config: Config = {
 			links: [
 				{
 					label: 'Cookie Policy',
-					href: '#',
+					href: 'pathname:///iog-cookie-policy.pdf',
 				},
 				{
 					label: 'Privacy Policy',

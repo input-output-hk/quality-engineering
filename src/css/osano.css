@@ -351,3 +351,7 @@
 .osano-cm-toggle[for='osano-cm-drawer-toggle--category_MARKETING'] ~ * {
 	display: none !important;
 }
+
+.osano-cm-content__message {
+	display: block;
+}

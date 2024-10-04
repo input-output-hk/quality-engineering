@@ -1,0 +1,357 @@
+:root {
+	--osano-white: #ffffff;
+	--osano-black: #3a3f41;
+	--osano-primary: #ff0000;
+	--osano-dialog-max-width: 960px;
+	--osano-dialog-elastic-padding: calc((100% - min(100vw, var(--osano-dialog-max-width))) / 2);
+	--osano-dialog-magic-padding: max(var(--osano-dialog-elastic-padding), 20px);
+	--osano-close-color: var(--osano-black);
+	--osano-link-color: var(--osano-black);
+	--osano-disclosure-color: var(--osano-black);
+	--osano-font-family: var(--default-font-family);
+	--osano-font-color: var(--osano-black);
+	--osano-background-color: var(--osano-white);
+	--osano-border-radius: 10px;
+	--osano-btn-font-variant: normal;
+	--osano-btn-text-transform: normal;
+	--osano-btn-letter-spacing: normal;
+	--osano-btn-border-radius: 4px;
+	--osano-btn-color: var(--osano-white);
+	--osano-btn-bg-color: var(--osano-primary);
+	--osano-btn-hover-color: var(--osano-primary);
+	--osano-btn-bg-hover-color: var(--osano-white);
+	--osano-switch-color: #e0e0e0;
+	--osano-switch-active-color: var(--osano-primary);
+	--osano-border-gradient: linear-gradient(94.22deg, var(--osano-black) -18.3%, var(--osano-black) 118.89%);
+	--osano-btn-border-gradient: linear-gradient(94.22deg, var(--osano-primary) -18.3%, var(--osano-primary) 118.89%);
+	--osano-background-gradient: linear-gradient(var(--osano-background-color), var(--osano-background-color))
+			padding-box,
+		var(--osano-border-gradient) border-box;
+	--osano-btn-bg-gradient: linear-gradient(var(--osano-btn-bg-color), var(--osano-btn-bg-color)) padding-box,
+		var(--osano-btn-border-gradient) border-box;
+}
+
+.osano-cm-window {
+	font-family: var(--osano-font-family);
+	font-size: 16px;
+}
+
+/**
+	* Initial Dialog
+	* --------------
+	*
+	* 1. Make font color consistent
+	* 2. Override background for gradient border effect
+	*     - We can't use 'max-width: xxx; margin: auto' to center
+	* 3. Align to center
+	* 4. Make mobile whitespace consistent
+	* 5. Make desktop whitespace consistent
+	*/
+.osano-cm-dialog {
+	color: var(--osano-font-color); /* 1 */
+	border-radius: var(--osano-border-radius, 16px); /* 2 */
+	border: 2px solid transparent; /* 2 */
+	background: var(--osano-background-gradient); /* 2 */
+	margin-left: var(--osano-dialog-magic-padding); /* 3 */
+	margin-right: var(--osano-dialog-magic-padding); /* 3 */
+	padding: 30px; /* 4 */
+	margin-bottom: 20px; /* 4 */
+	line-height: 1.625;
+}
+
+@media screen and (min-width: 768px) {
+	.osano-cm-dialog {
+		padding: 60px; /* 5 */
+		margin-bottom: 40px; /* 5 */
+	}
+}
+
+/**
+	* Button
+	* ------
+	*
+	* 1. Make text consistent
+	* 2. Gradient border effect
+	* 3. Align size with site design
+	*/
+.osano-cm-button {
+	font-weight: 600;
+	font-family: var(--osano-font-family); /* 1 */
+	font-variant: var(--osano-btn-font-variant, normal);
+	text-transform: var(--osano-btn-text-transform, none);
+	letter-spacing: var(--osano-btn-letter-spacing, normal);
+	color: var(--osano-btn-color); /* 1 */
+	background-color: var(--osano-btn-bg-color); /* 2 */
+	border: 2px solid transparent; /* 2 */
+	border-radius: var(--osano-btn-border-radius, 14px); /* 2 */
+	background: var(--osano-btn-bg-gradient); /* 2 */
+	height: 44px; /* 3 */
+	transition: color 0.4s ease-out background-color 0.4s ease-out; /* 4 */
+}
+
+.osano-cm-button:hover:not(:disabled):not(:active):not([aria-selected='true']) {
+	transform: scale(1.035); /* 4 */
+	box-shadow: 0px 4px 10px rgba(167, 143, 160, 0.2);
+}
+
+/* Button: focus/hover */
+.osano-cm-button:focus,
+.osano-cm-button:hover {
+	color: var(--osano-btn-hover-color);
+	background: var(--osano-btn-bg-hover-color);
+	border-color: var(--osano-btn-hover-color);
+}
+/* Buttons in group */
+.osano-cm-dialog--type_bar .osano-cm-button {
+	width: 100%;
+}
+/**
+	* When buttons are in a stack...
+	* 1. Make mobile whitespace consistent
+	* 2. Make desktop whitespace consistent
+	*/
+.osano-cm-dialog--type_bar .osano-cm-button + .osano-cm-button {
+	margin-top: calc(10px - 0.25em); /* 1 */
+	@media screen and (min-width: 768px) {
+		margin-top: calc(20px - 0.25em); /* 2 */
+	}
+}
+/**
+	* 1. Remove user-agent defaults for link color
+	*/
+.osano-cm-link,
+.osano-cm-link:hover {
+	color: var(--osano-link-color); /* 1 */
+	font-weight: bold;
+}
+/**
+	* Toggle Switch
+	* -------------
+	* 1. Align colors
+	*/
+.osano-cm-toggle__switch {
+	background-color: var(--osano-switch-color); /* 1 */
+}
+/* Toggle switch: focus/hover */
+.osano-cm-toggle__input:focus + .osano-cm-toggle__switch,
+.osano-cm-toggle__input:hover + .osano-cm-toggle__switch {
+	background-color: var(--osano-switch-color); /* 1 */
+	border-color: var(--osano-switch-color); /* 1 */
+}
+/* Toggle switch: checked: focus/hover */
+.osano-cm-toggle__input:checked:focus + .osano-cm-toggle__switch,
+.osano-cm-toggle__input:checked:hover + .osano-cm-toggle__switch,
+.osano-cm-toggle__input:checked + .osano-cm-toggle__switch {
+	background-color: var(--osano-switch-active-color); /* 1 */
+	border-color: var(--osano-switch-active-color); /* 1 */
+}
+
+.osano-cm-toggle__input:checked:focus + .osano-cm-toggle__switch:after,
+.osano-cm-toggle__input:checked:hover + .osano-cm-toggle__switch:after,
+.osano-cm-toggle__input:checked + .osano-cm-toggle__switch:after {
+	background-color: #fff; /* 1 */
+	border-color: var(--osano-btn-bg-color); /* 1 */
+}
+
+.osano-cm-toggle__input:disabled + .osano-cm-toggle__switch,
+.osano-cm-toggle__input:disabled:focus + .osano-cm-toggle__switch,
+.osano-cm-toggle__input:disabled:hover + .osano-cm-toggle__switch {
+	background-color: var(--osano-switch-disabled-color); /* 1 */
+	border-color: var(--osano-switch-disabled-color); /* 1 */
+}
+/**
+	* View cookies dropdown
+	* ---------------------
+	*/
+.osano-cm-disclosure__toggle,
+.osano-cm-disclosure__toggle:hover {
+	color: inherit; /* 1 */
+}
+/**
+	* 1. Fix horrible info-dialog shadow
+	* 2. Consistent font color
+	*/
+.osano-cm-info {
+	box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.15); /* 1. */
+	color: var(--osano-font-color); /* 2 */
+}
+/* 1. Set correct font family on toggle labels */
+.osano-cm-drawer-toggle {
+	font-family: var(--osano-btn-font-family); /* 1 */
+}
+/**
+	* 1. Hide Osano logo
+	*/
+.osano-cm-view__powered-by {
+	display: none; /* 1 */
+}
+/**
+	* Sidebar styling:
+	* ----------------
+	*/
+.osano-cm-info-dialog__info {
+}
+
+/**
+	* 1. Make wider on desktop
+	*/
+@media screen and (min-width: 768px) {
+	.osano-cm-info-dialog__info {
+		max-width: 465px; /* 1 */
+	}
+}
+
+/**
+	* 1. Remove sticky behaviour
+	* 2. Adjust desktop close button position based on whitespace change
+	*/
+.osano-cm-info-dialog-header {
+	position: relative; /* 1 */
+}
+
+@media screen and (min-width: 768px) {
+	.osano-cm-close {
+		margin-top: -30px; /* 2 */
+	}
+}
+
+/**
+	* 1. Make sidebar title bold
+	* 2. Make desktop padding consistent with content
+	*/
+.osano-cm-info-dialog-header__header {
+	font-weight: bold; /* 1 */
+}
+
+@media screen and (min-width: 768px) {
+	.osano-cm-info-dialog-header__header {
+		padding-top: 60px; /* 2 */
+		padding-left: 60px; /* 2 */
+	}
+}
+
+.osano-cm-info-dialog-header__close:focus {
+	stroke: var(--osano-close-color);
+	background: var(--osano-background-color);
+	border: none;
+}
+
+/**
+	* 1. Make text more readable
+	*/
+.osano-cm-description {
+	font-size: 14px; /* 1 */
+	line-height: 1.64; /* 1 */
+}
+
+/**
+	* 1. Add whitespace to bottom of dialog
+	*/
+.osano-cm-save.osano-cm-view__button {
+	margin-bottom: 60px; /* 1 */
+}
+
+/**
+	* 1. Make mobile whitespace consistent
+	* 2. Make desktop whitespace consistent
+	*/
+.osano-cm-view--type_consent {
+	padding: 0 20px; /* 1 */
+}
+
+@media screen and (min-width: 768px) {
+	.osano-cm-view--type_consent {
+		padding: 0 60px; /* 2 */
+	}
+}
+
+/**
+	* 1. Make section headings bold
+	*/
+.osano-cm-toggle__label[role='heading'] {
+	font-weight: bold; /* 1 */
+}
+
+/**
+	* 1. Make whitespace consistent with parent
+	*/
+.osano-cm-disclosure {
+	padding-left: 0; /* 1 */
+	padding-right: 0; /* 1 */
+	margin-left: 0; /* 1 */
+	margin-right: 0; /* 1 */
+	margin-bottom: 30px; /* 1 */
+}
+
+/**
+	* 1. Make font-size consistent
+	* 2. Add preceeding dropdown arrow
+	* 3. Make font color consistent
+	*/
+.osano-cm-disclosure__toggle,
+.osano-cm-disclosure__toggle:hover {
+	font-size: 14px; /* 1 */
+	position: relative; /* 2 */
+	color: var(--osano-disclosure-color); /* 3 */
+	text-decoration: none;
+}
+
+.osano-cm-disclosure__toggle:before {
+	display: inline-block; /* 2 */
+	content: ''; /* 2 */
+	position: relative; /* 2 */
+	width: 12.5px; /* 2 */
+	height: 8.5px; /* 2 */
+	margin-right: 8px; /* 2 */
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxMCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjMTIxMzI2IiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im0yIDEuNSA1IDYgNS02Ii8+PC9zdmc+')
+		center center no-repeat; /* 2 */
+}
+
+.osano-cm-disclosure__toggle[aria-expanded='true']:before {
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxMCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjMTIxMzI2IiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im0xMiA4LjUtNS02LTUgNiIvPjwvc3ZnPg==');
+}
+
+/**
+	* 1. Override cookie widget icon with custom SVG
+	*/
+.osano-cm-window__widget {
+	background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yMi4wMDU5IDIxLjE4MTJDMjIuODY4NiAyMS4xODEyIDIzLjYgMjAuODc5MiAyNC4yIDIwLjI3NTNDMjQuOCAxOS42NzE0IDI1LjEgMTguOTM4IDI1LjEgMTguMDc1M0MyNS4xIDE3LjIxMjUgMjQuNzk4IDE2LjQ4MTIgMjQuMTk0MSAxNS44ODEyQzIzLjU5MDIgMTUuMjgxMiAyMi44NTY5IDE0Ljk4MTIgMjEuOTk0MSAxNC45ODEyQzIxLjEzMTQgMTQuOTgxMiAyMC40IDE1LjI4MzEgMTkuOCAxNS44ODcxQzE5LjIgMTYuNDkxIDE4LjkgMTcuMjI0MyAxOC45IDE4LjA4NzFDMTguOSAxOC45NDk4IDE5LjIwMiAxOS42ODEyIDE5LjgwNTkgMjAuMjgxMkMyMC40MDk4IDIwLjg4MTIgMjEuMTQzMSAyMS4xODEyIDIyLjAwNTkgMjEuMTgxMlpNMTguMDA1OSAzMS4xODEyQzE4Ljg2ODYgMzEuMTgxMiAxOS42IDMwLjg3OTIgMjAuMiAzMC4yNzUzQzIwLjggMjkuNjcxNCAyMS4xIDI4LjkzOCAyMS4xIDI4LjA3NTNDMjEuMSAyNy4yMTI1IDIwLjc5OCAyNi40ODEyIDIwLjE5NDEgMjUuODgxMkMxOS41OTAyIDI1LjI4MTIgMTguODU2OSAyNC45ODEyIDE3Ljk5NDEgMjQuOTgxMkMxNy4xMzE0IDI0Ljk4MTIgMTYuNCAyNS4yODMxIDE1LjggMjUuODg3MUMxNS4yIDI2LjQ5MSAxNC45IDI3LjIyNDMgMTQuOSAyOC4wODcxQzE0LjkgMjguOTQ5OCAxNS4yMDIgMjkuNjgxMiAxNS44MDU5IDMwLjI4MTJDMTYuNDA5OCAzMC44ODEyIDE3LjE0MzEgMzEuMTgxMiAxOC4wMDU5IDMxLjE4MTJaTTMxIDMzLjA4MTJDMzEuNTY2NyAzMy4wODEyIDMyLjA0MTcgMzIuODg5NSAzMi40MjUgMzIuNTA2MkMzMi44MDgzIDMyLjEyMjggMzMgMzEuNjQ3OCAzMyAzMS4wODEyQzMzIDMwLjUxNDUgMzIuODA4MyAzMC4wMzk1IDMyLjQyNSAyOS42NTYyQzMyLjA0MTcgMjkuMjcyOCAzMS41NjY3IDI5LjA4MTIgMzEgMjkuMDgxMkMzMC40MzMzIDI5LjA4MTIgMjkuOTU4MyAyOS4yNzI4IDI5LjU3NSAyOS42NTYyQzI5LjE5MTcgMzAuMDM5NSAyOSAzMC41MTQ1IDI5IDMxLjA4MTJDMjkgMzEuNjQ3OCAyOS4xOTE3IDMyLjEyMjggMjkuNTc1IDMyLjUwNjJDMjkuOTU4MyAzMi44ODk1IDMwLjQzMzMgMzMuMDgxMiAzMSAzMy4wODEyWk0yNS4wMTE3IDQ1LjA4MTJDMjIuMjcwNiA0NS4wODEyIDE5LjY4MzMgNDQuNTU2MiAxNy4yNSA0My41MDYyQzE0LjgxNjcgNDIuNDU2MiAxMi42OTE3IDQxLjAyMjggMTAuODc1IDM5LjIwNjJDOS4wNTgzMyAzNy4zODk1IDcuNjI1IDM1LjI2NDUgNi41NzUgMzIuODMxMkM1LjUyNSAzMC4zOTc4IDUgMjcuODE0NSA1IDI1LjA4MTJDNSAyMi4wMTQ1IDUuNjUgMTkuMTQ3OCA2Ljk1IDE2LjQ4MTJDOC4yNSAxMy44MTQ1IDkuOTkxNjcgMTEuNTU2MiAxMi4xNzUgOS43MDYxOEMxNC4zNTgzIDcuODU2MTggMTYuODc1IDYuNTIyODQgMTkuNzI1IDUuNzA2MThDMjIuNTc1IDQuODg5NTEgMjUuNTMzMyA0Ljc4MTE4IDI4LjYgNS4zODExOEMyOC40IDYuODgxMTggMjguNTMzMyA4LjI5Nzg0IDI5IDkuNjMxMThDMjkuNDY2NyAxMC45NjQ1IDMwLjE3NSAxMi4wOTc4IDMxLjEyNSAxMy4wMzEyQzMyLjA3NSAxMy45NjQ1IDMzLjIxNjcgMTQuNjQ3OCAzNC41NSAxNS4wODEyQzM1Ljg4MzMgMTUuNTE0NSAzNy4yODMzIDE1LjYxNDUgMzguNzUgMTUuMzgxMkMzOC4wODMzIDE3LjQxNDUgMzguNDUgMTkuMjM5NSAzOS44NSAyMC44NTYyQzQxLjI1IDIyLjQ3MjggNDIuOTUgMjMuMzY0NSA0NC45NSAyMy41MzEyQzQ1LjIxNjcgMjYuNDMxMiA0NC44NzUgMjkuMTgxMiA0My45MjUgMzEuNzgxMkM0Mi45NzUgMzQuMzgxMiA0MS41ODMzIDM2LjY2NDUgMzkuNzUgMzguNjMxMkMzNy45MTY3IDQwLjU5NzggMzUuNzM2OCA0Mi4xNjQ1IDMzLjIxMDMgNDMuMzMxMkMzMC42ODM4IDQ0LjQ5NzggMjcuOTUxIDQ1LjA4MTIgMjUuMDExNyA0NS4wODEyWk0yNSA0Mi4wODEyQzI5LjczMzMgNDIuMDgxMiAzMy42NjY3IDQwLjUyMjggMzYuOCAzNy40MDYyQzM5LjkzMzMgMzQuMjg5NSA0MS42ODMzIDMwLjQ0NzggNDIuMDUgMjUuODgxMkM0MC4yNSAyNS4yMTQ1IDM4Ljc5MTcgMjQuMjIyOCAzNy42NzUgMjIuOTA2MkMzNi41NTgzIDIxLjU4OTUgMzUuODY2NyAyMC4wODEyIDM1LjYgMTguMzgxMkMzMi45IDE4LjAxNDUgMzAuNjI1IDE2Ljg0NzggMjguNzc1IDE0Ljg4MTJDMjYuOTI1IDEyLjkxNDUgMjUuODY2NyAxMC42MzEyIDI1LjYgOC4wMzExOEMyMy4xMzMzIDcuOTMxMTggMjAuODI1IDguMzMxMTggMTguNjc1IDkuMjMxMThDMTYuNTI1IDEwLjEzMTIgMTQuNjU4MyAxMS4zNjQ1IDEzLjA3NSAxMi45MzEyQzExLjQ5MTcgMTQuNDk3OCAxMC4yNSAxNi4zMzk1IDkuMzUgMTguNDU2MkM4LjQ1IDIwLjU3MjggOCAyMi43ODEyIDggMjUuMDgxMkM4IDI5LjgxNDUgOS42NSAzMy44MzEyIDEyLjk1IDM3LjEzMTJDMTYuMjUgNDAuNDMxMiAyMC4yNjY3IDQyLjA4MTIgMjUgNDIuMDgxMloiIGZpbGw9IiNmZjAwMDAiLz4KPC9zdmc+Cg==')
+		center center no-repeat; /* 1 */
+	background-size: 40px; /* 1 */
+}
+
+.osano-cm-window__widget > svg {
+	display: none;
+}
+
+/**
+	* 1. Remove cookie widget icon focus outline
+	*/
+.osano-cm-widget:focus {
+	outline: none; /* 1 */
+}
+/**
+	* 1. Override default close button colors
+	*/
+.osano-cm-dialog__close {
+	color: var(--osano-close-color); /* 1 */
+	stroke: var(--osano-close-color); /* 1 */
+}
+
+.osano-cm-dialog--type_bar.osano-cm-dialog--position_top {
+	top: auto;
+	bottom: 0;
+}
+
+.osano-cm-toggle[for='osano-cm-dialog-toggle--category_PERSONALIZATION'],
+.osano-cm-toggle[for='osano-cm-dialog-toggle--category_MARKETING'],
+.osano-cm-toggle[for='osano-cm-drawer-toggle--category_PERSONALIZATION'],
+.osano-cm-toggle[for='osano-cm-drawer-toggle--category_PERSONALIZATION'] ~ *,
+.osano-cm-toggle[for='osano-cm-drawer-toggle--category_MARKETING'],
+.osano-cm-toggle[for='osano-cm-drawer-toggle--category_MARKETING'] ~ * {
+	display: none !important;
+}
+
+.osano-cm-content__message {
+	display: block;
+}

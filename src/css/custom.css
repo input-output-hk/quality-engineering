@@ -26,6 +26,8 @@
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 	--ifm-footer-background-color: var(--color-grey-1);
 	--ifm-footer-color: var(--color-grey-4);
+	--ifm-footer-link-color: var(--color-grey-4);
+	--ifm-footer-link-hover-color: var(--color-white-1);
 	--ifm-font-family-base: 'Inter', sans-serif;
 	--ifm-heading-font-family: 'Lexend', sans-serif;
 	--ifm-heading-font-weight: 400;
@@ -133,12 +135,29 @@ div:has(> .dsla-search-wrapper) {
 	--ifm-navbar-sidebar-width: 100vw;
 }
 
-.footer__bottom {
+.footer .container {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: column;
+	gap: 1.5rem;
 }
 
+.footer__bottom {
+	display: contents;
+	text-align: left;
+}
+
+.footer__links {
+	text-align: left;
+	margin: 0;
+}
+
+.footer__bottom > div:first-child {
+	order: -1;
+	/* docusaurus theme uses !important so we need to override it */
+	margin: 0 !important;
+}
+
+.footer__link-item,
 .footer__copyright {
 	font-size: 0.875rem;
 }

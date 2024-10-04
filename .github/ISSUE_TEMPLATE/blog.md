@@ -2,7 +2,7 @@
 name: blog
 about: Propose a blog story idea
 title: ''
-labels: ''
+labels: blog
 assignees: ''
 
 ---

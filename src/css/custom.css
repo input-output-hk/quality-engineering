@@ -135,10 +135,26 @@ div:has(> .dsla-search-wrapper) {
 	--ifm-navbar-sidebar-width: 100vw;
 }
 
-.footer__bottom {
+.footer .container {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.footer__bottom {
+	display: contents;
+	text-align: left;
+}
+
+.footer__links {
+	text-align: left;
+	margin: 0;
+}
+
+.footer__bottom > div:first-child {
+	order: -1;
+	/* docusaurus theme uses !important so we need to override it */
+	margin: 0 !important;
 }
 
 .footer__link-item,

@@ -30,22 +30,6 @@ The model is an essential tool that offers guidance for achieving our ultimate g
 
 :::
 
-## Importance of project participation
-
-The quality of one product inevitably reflects on the perception of every other product that the company builds. It's a ripple effect. When one product excels or falters, it casts a certain light on the entire **brand**. Therefore, it's imperative for every project within the organization to actively participate in this initiative. By doing so, projects can collectively grasp the maturity level of the entire organization. This unified approach is pivotal in enhancing our overall capability to create and deliver top-tier products and unparalleled customer experiences.
-
-:::info
-
-By embracing this model, organizations and projects foster a culture of continuous improvement, making them more **resilient, adaptive, and competitive** in the ever-evolving software industry.
-
-:::
-
-Project participation is paramount. Every project's unique insights and experiences contribute to a comprehensive understanding of the current maturity level. By participating in this initiative, projects are not only aligning with organizational goals, but also contributing to a collective growth pattern that benefits everyone.
-
-Understanding your project’s software quality maturity is important so you can **identify your strengths and weaknesses, uphold and reward what’s done well, and acknowledge and improve what is not**.
-
-Systematizing software engineering work ensures it becomes ingrained in the organization's DNA, making proven practices resilient even during significant organizational changes.
-
 ## Dimensions and levels
 
 ![Example radar chart](/img/quality-maturity-model/radar-chart.png)

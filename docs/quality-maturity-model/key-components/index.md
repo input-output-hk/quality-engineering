@@ -19,19 +19,33 @@ At the project level, the review is designed to provide a comprehensive view of 
 -   [**Continuous Improvement**](./continuous-improvement/index.mdx): examines the commitment to iterative enhancements, responsiveness to feedback, and proactive pursuit of continuous improvement.
 -   [**Vendor integration**](./vendor-integration/index.mdx): evaluates the project’s capability and maturity of integrating third-party vendors, tools, or platforms into the product ecosystem.
 
+## 5 maturity levels
+
+In terms of levels within each dimension, it's important to understand the nuanced distinctions that guide a project's maturity journey:
+
+-   **Level 1**: the starting point is often ad-hoc and reactive. It's where the project begins, but not where it wants to stay.
+-   **Level 2**: an intermediate point, a checkpoint proving the project is on the desired path.
+-   **Level 3**: the baseline. Core operations with a clear understanding and adherence to practices and processes are in place.
+-   **Level 4**: introduces the power of data, enabling better, data-based decisions based on relevant metrics.
+-   **Level 5**: the project is not just following practices. Rather, it's continuously improving, learning from data and experience to continuously refine the approach. This implies early problem detection and prevention, ensuring potential challenges are addressed even before they surface.
+
+![Reactive vs. proactive](/img/quality-maturity-model/reactive-proactive.png)
+
 ## Radar chart visualization
 
--   Holistic view of strengths, weaknesses, and progress
+-   Holistic view of strengths, weaknesses, and progress, at the project level, across the 14 dimensions
 -   Promotes inward reflection and improvement plans
 
 ![Example radar chart](/img/quality-maturity-model/radar-chart.png)
 
 ## Summary review & report
 
-The **summary review** offers a detailed snapshot of each project’s quality maturity, paving the way for strategic improvement.
+Post-review, a **summary review** and **summary report** would offer a detailed snapshot of project’s quality maturity, paving the way for strategic improvement.
+
 
 ## Recommended improvements
 
--   **Record keeping**: whenever a project joins the framework or achieves a new level, the program mentor updates this milestone on the program tracking page.
+-   Post-review, you will also receive a prioritized list of recommendations per dimension, based on your specific context. These recommendations are designed to be small, actionable, and easy to integrate with your current projects.
+
 
 Additional information is available on the [FAQ page here](../resources/faqs.md).

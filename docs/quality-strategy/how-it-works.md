@@ -10,7 +10,7 @@ The quality strategy tool is designed to foster a structured and proactive appro
 
 #### 1. Familiarize yourself with the Quality Strategy tool
 
-Explore the Quality Strategy Overview and Template, as understanding these resources will help you grasp the goals, principles, and essential components of this approach. This foundational knowledge is crucial for effectively implementing the strategy throughout the SDLC and maximizing its impact on final products.
+Explore the Quality Strategy Overview and Templates, as understanding these resources will help you grasp the goals, principles, and essential components of this approach. This foundational knowledge is crucial for effectively implementing the strategy throughout the SDLC and maximizing its impact on final products.
 
 #### 2. Develop a product-level quality strategy
 
@@ -23,15 +23,7 @@ The purpose here is to capture and consolidate all the existing actions and proc
 -   **Review and understanding**: Ensure the quality strategy at the product level is well-understood and reviewed by all team members. This collaborative approach promotes a unified vision and facilitates consistent implementation of the quality strategy across different segments of the project.
 -   **Collaboration and insights**: collaborate with other teams and projects to leverage knowledge and experience. Share insights and best practices to further improve your quality strategies.
 
-#### 3. Address gaps and prioritize continuous improvement
-
-With your project-level quality strategy in place, it's time to evaluate it and identify potential gaps. This is an opportunity to refine your quality strategy and enhance your software development process and the overall quality of your software products.
-
--   **Identify uncovered areas**: if there are areas in the template not currently covered by your teams, track these as continuous improvement tickets. Prioritize improving these areas, as enhancing quality directly translates to increased development speed. The faster you close these gaps, the quicker your team can deliver high-quality outputs.
-
--   **Adapt and refine**: establish a continuous improvement process that allows you to adapt and enhance your quality strategy and approach over time. Implement corrective actions, refine existing processes, and introduce new practices to address identified gaps.
-
-#### 4. Extend quality strategy to individual features
+#### 3. Extend quality strategy to individual features
 
 Beyond a general product-level quality strategy, start developing targeted quality strategies for each important feature or new functionality. This approach allows for more specific quality control and rapid adjustment to meet distinct requirements or address challenges that arise during development.
 
@@ -39,13 +31,22 @@ Beyond a general product-level quality strategy, start developing targeted quali
 
 -   **Review and iterate**: ensure each strategy is thoroughly reviewed and agreed upon by all team members involved in the project. This collaborative review helps in identifying any areas overlooked earlier in the cycle.
 
-#### 5. Develop system-level test strategies
+#### 4. Develop system-level test strategies
 
 Consider developing system-level test strategies to guide the work of test engineers during final product validation.
 
 -   **System-level test strategy template**: utilize the system-level test strategy template to organize and guide the testing efforts of your test engineers. This template provides a structured approach to validate the final product comprehensively.
 
 -   **Integration and execution**: the system-level strategies should align with and support the individual feature-level strategies. They are typically executed in parallel to the feature development to ensure timely identification of issues.
+
+#### 5. Address gaps and prioritize continuous improvement
+
+With your project-level quality strategy in place, it's time to evaluate it and identify potential gaps. This is an opportunity to refine your quality strategy and enhance your software development process and the overall quality of your software products.
+
+-   **Identify uncovered areas**: if there are areas in the template not currently covered by your teams, track these as continuous improvement tickets. Prioritize improving these areas, as enhancing quality directly translates to increased development speed. The faster you close these gaps, the quicker your team can deliver high-quality outputs.
+
+-   **Adapt and refine**: establish a continuous improvement process that allows you to adapt and enhance your quality strategy and approach over time. Implement corrective actions, refine existing processes, and introduce new practices to address identified gaps.
+
 
 ## Roles and responsibilities
 

@@ -6,11 +6,11 @@ This model does not apply to product experimentation, which prioritizes rapid id
 
 :::
 
-## What is a software quality maturity model?
+## What the quality maturity model is?
 
 :::info
 
-It is a **peer-reviewed, evidence-based** tool designed to assess, guide, and enhance organization's capability to build and deliver high-quality software products **effectively** and **efficiently**. This model is specifically designed to fit into our organizational culture and process, aligning with the unique needs and goals of IO's projects and organization.
+It is a **peer-reviewed and evidence-based** tool designed to assess, guide, and enhance project's capability to build and deliver high-quality software products **effectively** and **efficiently**. This model is specifically designed to fit into our organizational culture and process, aligning with the unique needs and goals of IO's projects and organization.
 
 :::
 
@@ -34,7 +34,7 @@ The model is an essential tool that offers guidance for achieving our ultimate g
 
 ![Example radar chart](/img/quality-maturity-model/radar-chart.png)
 
-Think of our software quality maturity model as a **multi-faceted radar chart**. Each facet, or dimension, represents a critical area of software quality. Each dimension is divided into five levels, ranging from 1 to 5, with level 1 being the basic understanding and level 5 signifying mastery.
+Think of our software quality maturity model as a **multi-faceted radar chart**. Each facet, or dimension, represents a critical area of team's capability to build quality software at speed. Each dimension is divided into five levels, ranging from 1 to 5, with level 1 being the basic understanding and level 5 signifying mastery.
 
 By understanding where each project currently stands on each dimension, it is possible to identify specific areas of improvement, plan actionable improvements, and track progress over time.
 

@@ -28,8 +28,6 @@ Let’s not be too dogmatic about it. If you start adding detailed Acceptance Cr
 
 Writing enables better structuring of thoughts. Writing doesn’t just clarify your existing ideas; it generates more of them.
 
-<img className="small" src={require("@site/static/img/quality-strategy/clarity.png").default} alt="Clarity illustration" />
-
 A quality strategy enhances transparency, clarity, and confidence regarding the project's strategy, approaches, current status, and potential risks. It also provides a comprehensive view of the product or feature vision, a clear definition of success, and the metrics used to evaluate success.
 
 :::
@@ -191,7 +189,7 @@ Furthermore, a quality strategy can help to reduce the risk of costly errors and
 Finally, many aspects of a quality strategy, such as testing and continuous integration, can be automated, reducing the need for manual effort and lowering costs over time.
 
 <figure>
-	<img src="/img/quality-strategy/fast-cheap-good.png" alt="Fast vs. cheap vs. good" />
+	<img src={require("@site/static/img/quality-strategy/fast-cheap-good.png").default} alt="Fast vs. cheap vs. good" />
 
     <p className="img-reference">Sources: https://martinfowler.com/articles/is-quality-worth-cost.html, https://mike-bland.com/2023/10/12/what-software-quality-is-and-why-it-matters.html.</p>
 

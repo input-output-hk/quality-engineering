@@ -1,6 +1,6 @@
 # Key components
 
-## 14 dimensions and 5 maturity levels
+## 14 dimensions
 
 At the project level, the review is designed to provide a comprehensive view of the software quality maturity spectrum, focusing on key dimensions that impact the entire software development life cycle. Each dimension serves a unique purpose and collectively paints a holistic picture of the project's maturity and areas of improvement.
 
@@ -28,8 +28,6 @@ In terms of levels within each dimension, it's important to understand the nuanc
 -   **Level 3**: the baseline. Core operations with a clear understanding and adherence to practices and processes are in place.
 -   **Level 4**: introduces the power of data, enabling better, data-based decisions based on relevant metrics.
 -   **Level 5**: the project is not just following practices. Rather, it's continuously improving, learning from data and experience to continuously refine the approach. This implies early problem detection and prevention, ensuring potential challenges are addressed even before they surface.
-
-![Reactive vs. proactive](/img/quality-maturity-model/reactive-proactive.png)
 
 ## Radar chart visualization
 

@@ -24,7 +24,7 @@ const features = [
 		description:
 			'Central hub for collaborative knowledge sharing and evolving quality engineering strategies, practices, and processes.',
 		image: './img/kb-icon.png',
-		href: '/docs/knowledge-hub/getting-started',
+		href: '/docs/knowledge-hub',
 	},
 ];
 

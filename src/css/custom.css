@@ -135,29 +135,59 @@ div:has(> .dsla-search-wrapper) {
 	--ifm-navbar-sidebar-width: 100vw;
 }
 
+.footer {
+	padding-top: 60px;
+}
+
 .footer .container {
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
 }
 
-.footer__bottom {
-	display: contents;
-	text-align: left;
-}
-
-.footer__links {
-	text-align: left;
-	margin: 0;
-}
-
-.footer__bottom > div:first-child {
-	order: -1;
-	/* docusaurus theme uses !important so we need to override it */
-	margin: 0 !important;
-}
-
 .footer__link-item,
 .footer__copyright {
 	font-size: 0.875rem;
+}
+
+.footer__links {
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+	row-gap: 12px;
+	column-gap: 24px;
+}
+
+@media (max-width: 768px) {
+	.footer__links {
+		grid-template-columns: repeat(1, 160px);
+	}
+
+	.footer__link-item:nth-of-type(4) {
+		margin-top: 24px;
+	}
+
+	.footer__logo img {
+		content: url('@site/static/img/logo-only-symbol.svg');
+	}
+}
+
+.footer__link-item {
+	color: var(--color-white-1) !important;
+	text-align: left;
+	width: 100%;
+
+	svg {
+		display: none;
+	}
+}
+
+.footer__link-separator {
+	display: none !important;
+}
+
+.footer__bottom {
+	display: flex;
+	border-top: 1px solid var(--ifm-footer-color);
+	justify-content: space-between;
+	align-items: center;
 }

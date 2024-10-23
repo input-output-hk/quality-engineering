@@ -108,17 +108,16 @@ const config: Config = {
 					href: 'https://github.com/input-output-hk/quality-engineering/issues/new?assignees=&labels=feedback&projects=&template=feedback.md&title= ',
 				},
 				{
+					label: 'Got a story?',
+					href: 'https://github.com/input-output-hk/quality-engineering/issues/new?assignees=&labels=blog&projects=&template=blog.md&title= ',
+				},
+				{
 					label: 'Cookie Policy',
 					href: 'pathname:///iog-cookie-policy.pdf',
 				},
-
 				{
 					label: 'Privacy Policy',
 					href: 'pathname:///iog-privacy-policy.pdf',
-				},
-				{
-					label: 'Got a story?',
-					href: 'https://github.com/input-output-hk/quality-engineering/issues/new?assignees=&labels=blog&projects=&template=blog.md&title= ',
 				},
 				{
 					label: 'Terms and Conditions',

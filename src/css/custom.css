@@ -107,18 +107,12 @@ article img {
 	.markdown {
 		padding: 32px 0 16px 0px !important;
 	}
-	.container {
-		padding: 24px 32px 56px 32px !important;
-	}
 }
 
 @media (min-width: 1024px) {
 	.markdown {
 		padding: 56px !important;
 		padding-right: 0 !important;
-	}
-	.container {
-		padding: 24px 16px 24px 16px !important;
 	}
 }
 
@@ -127,11 +121,6 @@ article .img-reference {
 	text-align: center;
 	font-style: italic;
 	max-width: 90%;
-}
-
-.navbar__toggle {
-	order: 9999;
-	margin-left: auto;
 }
 
 .navbar__title {
@@ -143,14 +132,14 @@ article .img-reference {
 	display: none;
 }
 
-@media (min-width: 500px) {
-	.navbar__title {
-		display: block;
-	}
-}
-
 div:has(> .dsla-search-wrapper) {
 	padding: 0;
+}
+
+@media (max-width: 996px) {
+	div:has(> .dsla-search-wrapper) {
+		margin-right: 45px;
+	}
 }
 
 .aa-DetachedSearchButton {

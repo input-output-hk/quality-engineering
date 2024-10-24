@@ -61,7 +61,6 @@ export default function NavbarContent(): JSX.Element {
 			left={
 				// TODO stop hardcoding items?
 				<>
-					{!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
 					<NavbarLogo />
 					<NavbarItems items={leftItems} />
 				</>
@@ -77,6 +76,7 @@ export default function NavbarContent(): JSX.Element {
 							<SearchBar />
 						</NavbarSearch>
 					)}
+					{!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
 				</>
 			}
 		/>

@@ -24,7 +24,7 @@ The **quality strategy** is a holistic plan outlining the project’s approach t
 
 **The Quality Strategy is about envisioning success and paving the way to achieve it.**
 
-<img className="small" src={require("@site/static/img/quality-strategy/illustration-strategy.png").default} alt="Strategy illustration" />
+<img className="default-sized-image" src={require("@site/static/img/quality-strategy/illustration-strategy.png").default} alt="Strategy illustration" />
 
 The quality strategy tool is designed to foster a structured and proactive approach to quality in software development projects. It ensures that every phase of the product's development adheres to high-quality standards, leaving no detail unconsidered, thereby improving both the efficiency and outcomes of all projects.
 

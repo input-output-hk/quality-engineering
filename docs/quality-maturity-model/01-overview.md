@@ -46,7 +46,7 @@ In terms of levels within each dimension, it's important to understand the nuanc
 -   **Level 4**: introduces the power of data, enabling better, data-based decisions based on relevant metrics.
 -   **Level 5**: the project is not just following practices. Rather, it's continuously improving, learning from data and experience to continuously refine the approach. This implies early problem detection and prevention, ensuring potential challenges are addressed even before they surface.
 
-![Reactive vs. proactive](/img/quality-maturity-model/reactive-proactive.png)
+<img className="default-sized-image" src={require("@site/static/img/quality-maturity-model/reactive-proactive.png").default} alt="Reactive vs. proactive" />
 
 This tiered model provides a clear roadmap for **continuous improvement**, enabling projects and organizations to set goals, assess effectiveness, and adapt proactively.
 

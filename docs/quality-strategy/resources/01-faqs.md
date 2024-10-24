@@ -199,7 +199,7 @@ Finally, many aspects of a quality strategy, such as testing and continuous inte
 
 The quality strategy serves as a guiding framework for the team/project, highlighting the essential actions required to build top-notch products. However, it doesn't prescribe specific methods or processes. Instead, it empowers the team with the autonomy and creative freedom to determine the best approach and techniques to achieve the desired quality outcomes. This balance ensures that while quality remains a core focus, innovation and adaptability are not compromised.
 
-<img className="small" src={require("@site/static/img/quality-strategy/rulebooks-frameworks.png").default} alt="Rulebooks and frameworks" />
+<img src={require("@site/static/img/quality-strategy/rulebooks-frameworks.png").default} alt="Rulebooks and frameworks" />
 
 ### A software quality strategy is only necessary for large organizations or complex software projects
 

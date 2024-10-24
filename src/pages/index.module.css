@@ -59,9 +59,9 @@
 	.heroImage {
 		display: block;
 		position: absolute;
-		bottom: -13%;
+		bottom: -10%;
 		right: var(--ifm-spacing-horizontal);
-		width: 50%;
+		width: 41%;
 	}
 }
 
@@ -111,6 +111,7 @@
 }
 .featureHeading h3 {
 	margin: 0;
+	font-size: 24px;
 }
 
 .featureImage {

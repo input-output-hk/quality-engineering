@@ -257,4 +257,5 @@ div:has(> .dsla-search-wrapper) {
 .default-sized-image {
 	width: 318px !important;
 	height: 318px !important;
+	box-shadow: none;
 }

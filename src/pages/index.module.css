@@ -33,7 +33,7 @@
 .heroTitle {
 	font-size: 2rem;
 	font-weight: 800;
-	font-family: 'Heiti TC', Lexend, sans-serif;
+	font-family: 'Heiti TC', 'Lexend', 'sans-serif' !important;
 	line-height: 1.33;
 	color: var(--color-grey-1);
 	letter-spacing: -1px;

@@ -67,8 +67,6 @@ const config: Config = {
 			logo: {
 				alt: 'IO Quality Engineering',
 				src: 'img/logo.svg',
-				height: 28,
-				width: 45,
 			},
 			items: [
 				{

@@ -116,6 +116,10 @@ article img {
 	}
 }
 
+.hash-link::before {
+	content: '' !important;
+}
+
 article .img-reference {
 	font-size: 0.75rem;
 	text-align: center;
@@ -258,4 +262,5 @@ div:has(> .dsla-search-wrapper) {
 	width: 318px !important;
 	height: 318px !important;
 	box-shadow: none;
+	padding: 20px 10px !important;
 }

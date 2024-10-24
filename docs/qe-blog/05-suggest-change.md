@@ -1,5 +1,7 @@
-How to suggest a change to a published blog
--------------------------------------------
+---
+title: How to suggest a change to a published blog
+metaTitle: How to suggest a change to a published blog
+---
 
 If you want to suggest a change to a published IO QE blog, please post the change you need in detail using one of the below options:
 

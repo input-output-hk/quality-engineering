@@ -1,5 +1,7 @@
-Writing Your Blog Post
-----------------------
+---
+title: Writing Your Blog Post
+metaTitle: Writing Your Blog Post
+---
 
 ### Content Guidelines
 

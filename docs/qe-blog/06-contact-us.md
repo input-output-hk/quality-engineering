@@ -1,5 +1,7 @@
-Communication with QE Blog Editorial team
------------------------------------------
+---
+title: Communication with QE Blog Editorial team
+metaTitle: Communication with QE Blog Editorial team
+---
 
 For any inquiries or assistance with your IO QE blog proposal or draft:
 

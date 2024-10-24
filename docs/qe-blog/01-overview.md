@@ -1,12 +1,15 @@
-Welcome!
---------
+---
+title: Overview
+metaTitle: Overview
+---
+
+## Welcome!
 
 We're excited you're interested in contributing to the [IO Quality Engineering Blog](https://input-output-hk.github.io/quality-engineering/blog/). 
 This is a platform to share your expertise, insights, and experiences with the wider IOG community and beyond. 
 These guidelines will help you understand the process and ensure your contributions are aligned with our goals.
 
-Purpose of the Blog
--------------------
+## Purpose of the Blog
 
 The IOG Quality Engineering blog serves as a collaborative platform to share knowledge, insights, and proven practices across 
 the entire software development lifecycle (SDLC), from proof of concept and feature specification to implementation, validation, and delivery. 

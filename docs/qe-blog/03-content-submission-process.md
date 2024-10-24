@@ -1,7 +1,9 @@
-Content Submission Process
---------------------------
+---
+title: Content Submission Process
+metaTitle: Content Submission Process
+---
 
-At IO Quality Engineering, blog posts largely focus on sharing helpful information with the audience. When you suggest or write a blog post, 
+Blog posts should focus on sharing helpful information with the audience. When you suggest or write a blog post, 
 always consider what it offers the reader. If the post is more internal-focused or a personal essay of sorts, it is 
 likely not a fit for this blog (but could go on Confluence or on your personal LinkedIn page).
 

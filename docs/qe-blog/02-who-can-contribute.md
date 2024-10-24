@@ -1,5 +1,7 @@
-Who Can Contribute?
--------------------
+---
+title: Who Can Contribute?
+metaTitle: Who Can Contribute?
+---
 
 **We welcome contributions from everyone at IO**, across all departments involved in any aspect of software products. 
 This includes, but is not limited to, team members from marketing, communications, business, product, technology, delivery, and other relevant functions.

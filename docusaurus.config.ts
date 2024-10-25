@@ -58,8 +58,7 @@ const config: Config = {
 	],
 
 	themeConfig: {
-		// TODO: Replace with your project's social card
-		// image: 'img/docusaurus-social-card.jpg',
+		image: 'img/social-card.png',
 		colorMode: {
 			disableSwitch: true,
 		},
@@ -68,8 +67,6 @@ const config: Config = {
 			logo: {
 				alt: 'IO Quality Engineering',
 				src: 'img/logo.svg',
-				height: 28,
-				width: 45,
 			},
 			items: [
 				{

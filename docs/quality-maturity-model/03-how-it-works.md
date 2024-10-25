@@ -1,6 +1,6 @@
 # How it works
 
-<img className="small" src={require("@site/static/img/quality-maturity-model/illustration-strategy.png").default} alt="Strategy illustration" />
+<img className="default-sized-image" src={require("@site/static/img/quality-maturity-model/illustration-strategy.png").default} alt="Strategy illustration" />
 
 ## The process
 

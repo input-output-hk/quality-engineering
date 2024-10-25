@@ -71,10 +71,53 @@ article img {
 	background-color: #fff;
 }
 
-@media (min-width: 800px) {
-	article img.small {
-		max-width: 50%;
+.markdown {
+	line-height: 1.65;
+}
+
+.markdown h1 {
+	font-size: 2rem;
+}
+
+.markdown h2 {
+	font-size: 1.8rem;
+}
+
+.markdown h3 {
+	font-size: 1.5rem;
+}
+
+.markdown h4 {
+	font-size: 1rem;
+}
+
+.markdown h5 {
+	font-size: 0.875rem;
+}
+
+.markdown h6 {
+	font-size: 0.75rem;
+}
+
+.menu {
+	padding: 24px !important;
+}
+
+@media (min-width: 768px) {
+	.markdown {
+		padding: 32px 0 16px 0px !important;
 	}
+}
+
+@media (min-width: 1024px) {
+	.markdown {
+		padding: 56px !important;
+		padding-right: 0 !important;
+	}
+}
+
+.hash-link::before {
+	content: '' !important;
 }
 
 article .img-reference {
@@ -82,11 +125,6 @@ article .img-reference {
 	text-align: center;
 	font-style: italic;
 	max-width: 90%;
-}
-
-.navbar__toggle {
-	order: 9999;
-	margin-left: auto;
 }
 
 .navbar__title {
@@ -98,14 +136,14 @@ article .img-reference {
 	display: none;
 }
 
-@media (min-width: 500px) {
-	.navbar__title {
-		display: block;
-	}
-}
-
 div:has(> .dsla-search-wrapper) {
 	padding: 0;
+}
+
+@media (max-width: 996px) {
+	div:has(> .dsla-search-wrapper) {
+		margin-right: 45px;
+	}
 }
 
 .aa-DetachedSearchButton {
@@ -218,4 +256,11 @@ div:has(> .dsla-search-wrapper) {
 	border-top: 1px solid var(--ifm-footer-color);
 	justify-content: space-between;
 	align-items: center;
+}
+
+.default-sized-image {
+	width: 318px !important;
+	height: 318px !important;
+	box-shadow: none;
+	padding: 20px 10px !important;
 }

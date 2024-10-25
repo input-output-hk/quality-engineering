@@ -1,50 +1,21 @@
 # Overview
 
+## Introduction
+
 :::info
 
-The quality strategy presents a **path to building better software**, streamlining decision-making, optimizing resource use, fostering better teamwork, and ultimately **delivering more value** to users. It brings a common language, visibility, clarity, and efficiency to IO’s software development process.
+The quality strategy presents **a path to building better software**, streamlining decision-making, optimizing resource use, fostering better teamwork, and ultimately **delivering more value to users**.
+It brings a common language, visibility, clarity, and efficiency to IO’s software development process.
 
 :::
 
-The quality strategy proactively combines quality assurance and strategic thinking throughout the entire SDLC, ensuring that challenges are anticipated and overcome, leading to products that consistently meet business needs and user expectations.
+**The Quality Strategy is about envisioning success and paving the way to achieve it.**
 
-Emphasizing continuous improvement and adaptability, the strategy ensures the delivery of robust, **value-driven software outcomes** while maintaining a clear, efficient path toward the end goal, thereby enhancing customer value and organizational efficacy.
+<img className="default-sized-image" src={require("@site/static/img/quality-strategy/illustration-strategy.png").default} alt="Strategy illustration" />
+
+The quality strategy tool is designed to foster a structured and proactive approach to quality in software development projects. It ensures that every phase of the product's development adheres to high-quality standards, leaving no detail unconsidered, thereby improving both the efficiency and outcomes of all projects.
 
 The benefit of applying a quality strategy is that a team (or group of collaborating teams) creates easy and clear guidance for everybody involved, about which activities to apply to achieve built-in quality in fit-for-purpose systems.
-
-This guidance will have different focuses. Some quality measures are linked to individual user stories, while other quality measures apply to features or epics and the quality engineering strategy will also contain generic quality measures that the team always applies.
-
-Apart from the choice of quality measures, the stage in which a quality measure is applied also matters, especially when multiple teams are involved. In that case, the quality measures are also linked to the relevant fundamental development activity (for preventive and corrective quality measures) and to test varieties (for static and dynamic quality measures).
-
-The quality strategy serves as a **multifaceted tool** for the entire organization, enhancing product quality and refining the software development processes. It can be utilized for guidance, fostering transparency and trust, and educational purposes:
-
--   **Guidance**: its primary focus is to support teams and projects in incorporating quality-oriented practices throughout the entire software development life cycle. It offers clear directions, (best) practices, and recommendations to ensure built-in quality, enabling teams to make informed decisions and effectively navigate the development process.
-
--   **Transparency/Trust**: by emphasizing alignment and transparency within the organization, the tool fosters an environment of trust. It enables teams to share information, collaborate effectively, and build trust among team members and stakeholders. This transparency fosters better communication, decision-making, and problem-solving, ultimately leading to reliable software and customer satisfaction.
-
--   **Educational**: It promotes a better understanding of the software development process. It equips and aligns individuals, and the entire organization with the knowledge and skills necessary to implement quality-driven approaches, fostering continuous learning and improvement within the organization.
-
-Each project has complete **autonomy** to establish their unique approach and methodology to achieve this objective.
-
-The quality strategy does not prescribe how to implement each practice. The **focus is on the outcomes of the practices** rather than on the tools, techniques, and mechanisms to do so. This means that the quality strategy can be used by any team or project, regardless of size or sophistication. It can also be used for any type of software development, regardless of technology, platform, programming language, or operating environment.
-
-:::info
-
-Quality is more an act of prevention than it is detection. **Quality is a development issue, not a testing issue**.
-
-:::
-
-Not all practices are applicable to all use cases; teams and projects should adopt a **risk-based approach** to determine what practices are relevant, appropriate, and effective to mitigate the threats to their software development practices.
-
-**It’s essential to take time on a regular basis, not only to design the quality strategy but also to review it**. Analyze what the current context is, see the progress it’s making, where the team stands, and where it can aspire to go. Then you may plan to achieve the goal.
-
-Most aspects of quality should be addressed multiple times within an SDLC, but in general, the earlier in the SDLC that quality is planned and addressed, the less effort and cost are ultimately required to achieve the same level of quality. This principle, known as shifting left, is critically important regardless of the SDLC model. Shifting left minimizes any technical debt that would require remediating early quality flaws late in development or after the software is in production. Shifting left also results in software with stronger quality, security, and resiliency.
-
-:::tip
-
-Testing can never be said to be "complete", and a core skill in testing is the justified management of conflicting demands; **without a strategy, these judgments will be inconsistent to the point of failure**.
-
-:::
 
 ## Objectives
 

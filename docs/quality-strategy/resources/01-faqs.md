@@ -28,9 +28,9 @@ Let’s not be too dogmatic about it. If you start adding detailed Acceptance Cr
 
 Writing enables better structuring of thoughts. Writing doesn’t just clarify your existing ideas; it generates more of them.
 
-A quality strategy enhances transparency, clarity, and confidence regarding the project's strategy, approaches, current status, and potential risks. It also provides a comprehensive view of the product or feature vision, a clear definition of success, and the metrics used to evaluate success.
-
 :::
+
+A quality strategy enhances transparency, clarity, and confidence regarding the project's strategy, approaches, current status, and potential risks. It also provides a comprehensive view of the product or feature vision, a clear definition of success, and the metrics used to evaluate success.
 
 A quality strategy is essential for several reasons:
 

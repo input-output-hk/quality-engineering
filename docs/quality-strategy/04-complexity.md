@@ -1,34 +1,7 @@
-# Background
-
-## The cost of poor software quality
-
-Poor software quality drains resources and erodes trust.
-
-### Direct costs
-
--   Rework & bug fixes
--   Testing & verification
--   Support & maintenance
--   Wasted resources
-
-### Indirect costs
-
--   Lost revenue
--   Reputation/brand damage
--   Legal liabilities
--   Opportunity costs
-
-### Long-term impact
-
--   Increased maintenance costs
--   Reduced software lifespan
--   Reduced competitive edge
-
-The true cost of poor software is not just in dollars, but in **lost trust and opportunities**.
-
-<img className="default-sized-image" src={require("@site/static/img/quality-strategy/cost-of-poor-software.png").default} alt="Cost of poor software" />
-
-## The complexity of software engineering
+---
+title: The complexity of software engineering
+metaTitle: The complexity of software engineering
+---
 
 ### Mastering complexity with collaboration & strategy
 
@@ -47,8 +20,6 @@ IO's here to create impactful products that resonate with users' needs, deliveri
 Strategy in software development refers to a high-level plan targeting long-term goals, aligning with the organization's vision, and balancing technical and business aspects to efficiently create valuable software that meets user needs.
 
 Quality in software products is a comprehensive measure of how well the software aligns with the intended design, satisfies user needs, and remains resilient against various challenges or changes. It's not just about being bug-free; it's about delivering value, ensuring safety, and providing a positive user experience.
-
-![What is your quality strategy?](/img/quality-strategy/what-is-your-quality-strategy.png)
 
 ## Quality: the foundation of IO's work
 

@@ -1,6 +1,7 @@
 ---
 title: Understanding Quality Strategy
 metaTitle: Understanding Quality Strategy
+slug: /quality-strategy/understanding-quality-strategy
 ---
 
 Imagine you're setting off on a road trip. You wouldn't just hop in the car and start driving, would you? You'd probably 

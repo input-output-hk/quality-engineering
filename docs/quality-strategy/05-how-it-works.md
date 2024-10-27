@@ -3,7 +3,7 @@ title: How it works
 metaTitle: How it works
 ---
 
-This section provides instructions on how to develop and use quality strategies effectively, ensuring that your project teams are aligned and equipped to deliver high-quality products.
+This section provides guidance on how to develop and use quality strategies effectively, ensuring that the project teams are aligned and equipped to deliver high-quality products.
 
 The quality strategy tool is designed to foster a structured and proactive approach to quality in software development projects. It ensures that every phase of your product development adheres to high-quality standards, leaving _no detail unconsidered_, thereby improving both the efficiency and outcomes of your projects
 

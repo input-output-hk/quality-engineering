@@ -1,8 +1,9 @@
-# How it works
+---
+title: How it works
+metaTitle: How it works
+---
 
-## Getting started
-
-This section provides instructions on how to develop and use quality strategies effectively, ensuring that your project teams are aligned and equipped to deliver high-quality products.
+This section provides guidance on how to develop and use quality strategies effectively, ensuring that the project teams are aligned and equipped to deliver high-quality products.
 
 The quality strategy tool is designed to foster a structured and proactive approach to quality in software development projects. It ensures that every phase of your product development adheres to high-quality standards, leaving _no detail unconsidered_, thereby improving both the efficiency and outcomes of your projects
 
@@ -10,7 +11,7 @@ The quality strategy tool is designed to foster a structured and proactive appro
 
 #### 1. Familiarize yourself with the Quality Strategy tool
 
-Explore the Quality Strategy Overview and Templates, as understanding these resources will help you grasp the goals, principles, and essential components of this approach. This foundational knowledge is crucial for effectively implementing the strategy throughout the SDLC and maximizing its impact on final products.
+Explore the Quality Strategy info and templates, as understanding these resources will help you grasp the goals, principles, and essential components of this approach. This foundational knowledge is crucial for effectively implementing the strategy throughout the SDLC and maximizing its impact on final products.
 
 #### 2. Develop a product-level quality strategy
 
@@ -18,7 +19,7 @@ Once familiarized with the general approach, develop a specific **quality strate
 
 The purpose here is to capture and consolidate all the existing actions and processes your team or organization has in place to plan, assure (create & validate), and control (verify) the quality of the software products.
 
--   **Use the template**: use the Quality Strategy Template provided as a framework to structure your product’s quality strategy. This template will help ensure that all relevant actions, practices, approaches, tools, and responsibilities are considered and clearly defined.
+-   **Use the template**: use the [Quality Strategy Template](https://input-output-hk.github.io/quality-engineering/docs/quality-strategy/resources/quality-strategy-template/) provided as a framework to structure your product’s quality strategy. This template will help ensure that all relevant actions, practices, approaches, tools, and responsibilities are considered and clearly defined.
 -   **Timely development**: aim to create the quality strategies during the planning phase, ideally before the start of the architecture or implementation phases. This collaborative approach promotes a unified vision and facilitates consistent implementation of the quality strategy across different areas of the project.
 -   **Review and understanding**: Ensure the quality strategy at the product level is well-understood and reviewed by all team members. This collaborative approach promotes a unified vision and facilitates consistent implementation of the quality strategy across different segments of the project.
 -   **Collaboration and insights**: collaborate with other teams and projects to leverage knowledge and experience. Share insights and best practices to further improve your quality strategies.

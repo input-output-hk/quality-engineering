@@ -10,15 +10,15 @@ The following conversation is:
 
 ![Example conversation](/img/quality-strategy/conversation.png)
 
-### How do you prevent it?
+**How do you prevent it?**
 
 You write down - before you start - what “finishing Thing A” actually is, and you don’t start building Thing A until there’s agreement on that from the relevant parties.
 
-### So what is a ‘Quality Strategy/DoD’?
+**So what is a ‘Quality Strategy/DoD’?**
 
 It’s the minimum you need to write down up front to achieve the goal of never having this Terrible Conversation again.
 
-### So a ‘Quality Strategy/DoD’ is only a term for a really skeleton type of document, then?
+**So a ‘Quality Strategy/DoD’ is only a term for a skeleton type of document, then?**
 
 Let’s not be too dogmatic about it. If you start adding detailed Acceptance Criteria to your doc, it’s still a ‘Quality Strategy/DoD’, as long as it can prevent this Terrible Conversation.
 
@@ -28,9 +28,9 @@ Let’s not be too dogmatic about it. If you start adding detailed Acceptance Cr
 
 Writing enables better structuring of thoughts. Writing doesn’t just clarify your existing ideas; it generates more of them.
 
-A quality strategy enhances transparency, clarity, and confidence regarding the project's strategy, approaches, current status, and potential risks. It also provides a comprehensive view of the product or feature vision, a clear definition of success, and the metrics used to evaluate success.
-
 :::
+
+A quality strategy enhances transparency, clarity, and confidence regarding the project's strategy, approaches, current status, and potential risks. It also provides a comprehensive view of the product or feature vision, a clear definition of success, and the metrics used to evaluate success.
 
 A quality strategy is essential for several reasons:
 

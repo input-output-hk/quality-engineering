@@ -42,4 +42,4 @@ Conclusion
 
 The Release Readiness Checklist has transformed the way IOG approaches software releases. By providing a clear framework and promoting collaboration, it has significantly improved our efficiency, reduced risks, and enhanced the quality of our products. Ultimately, the checklist empowers our teams to deliver software they can be proud of, knowing that every aspect has been thoroughly vetted and validated.
 
-**Curious about what else goes into a successful release?** Explore the full checklist - [Link to Template here](/docs/knowledge-hub/checklists-and-templates/release-readiness-checklist-template].
+**Curious about what else goes into a successful release?** Explore the full checklist - [Link to Template here](/docs/knowledge-hub/checklists-and-templates/release-readiness-checklist-template).

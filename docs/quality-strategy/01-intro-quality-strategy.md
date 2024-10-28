@@ -42,7 +42,7 @@ Now, with your destination in mind, here's how a Quality Strategy paves the way 
 6.  **Reflect and learn:** The journey doesn't end when you reach your destination. Gather feedback from your passengers (users), reflect on what went well and what could be improved, and use that knowledge to make your next software adventure even better. Every road trip teaches you something new!
 
 
-To help you chart your course, we offer a **[Quality Strategy Template](https://input-output-hk.github.io/quality-engineering/docs/quality-strategy/resources/quality-strategy-template/)**. 
+To help you chart your course, we created a **[Quality Strategy Template](https://input-output-hk.github.io/quality-engineering/docs/quality-strategy/resources/quality-strategy-template/)**. 
 It's a blank canvas, a starting point for you to fill in with your own specific goals, processes, and quality checks. It's your unique story to tell, your personalized roadmap to success.
 
 So, before you start your next software adventure, ask yourself: **What's my Quality Strategy? Where am I going, and how will I get there? How will we build quality software efficiently and effectively?**

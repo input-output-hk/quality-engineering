@@ -10,40 +10,14 @@ The model emphasizes continuous improvement, ownership, and quality integration 
 
 ## What does applying the quality maturity model imply, and how does it work in practice?
 
-:::info
-
 Applying the quality maturity model involves a non-prescriptive, peer-reviewed process at project level against high-level industry standards and common sense, without enforcing any measures or practices.
 
 **Each project is expected to independently establish and track progress metrics**, focusing on continuous improvement and consistently delivering user value.
 
-The **initial review offers a snapshot** of the company's quality engineering maturity. It's an opportunity for introspection, allowing projects and the organization as a whole to start productive discussions on improvement.
+The **initial review offers a snapshot** of the project's cpability maturity. It's an opportunity for introspection, allowing teams to start productive discussions on improvement.
 
 This is not about enforcement. Rather, it's about **empowering** each project to chart its own path toward better software delivery.
 
-:::
-
-The initial review is the **baseline**. It's a snapshot that helps to understand the current state in the quality engineering maturity landscape. This is where introspection meets action, enabling productive discussions for improvement.
-
-The application of this model involves **a structured review process**, the involvement of various key roles, and the creation of personalized action plans for improvement based on the unique needs and goals of each project. Here's how it works:
-
-### Initial review
-
--   Involves an evidence-based, peer-reviewed process that compares current practices and outcomes at the project level with a high-level set of domain practices covering the entire SDLC.
--   **Roles involved**: various key roles participate in the review process, ensuring a comprehensive and accountable approach.
--   **Baseline and tracking**: after the initial review, the model establishes a baseline for each project. projects then autonomously track and measure progress, focusing on continuous improvement and delivering value to their users.
-
-### Outcomes and recommendations
-
--   **Visibility and insights**: covering the entire SDLC, the model provides clear insights into strengths, weaknesses, and opportunities, both at the project and organizational levels.
--   **Customized recommendations**: rather than being prescriptive, the model suggests potential improvements. These are collaboratively formulated by project leaders, dimension owners, and program mentors, grounded in industry proven practices and methods, and common sense.
--   **Culture of improvement**: this model stresses cultural and behavioral changes for continuous improvement. The model aims for strategic, proactive problem-solving and encourages projects to focus on self-improvement.
--   **Autonomy and alignment**: after the initial review, projects autonomously track and measure progress with a focus on continuous improvement and delivering value to their users.
--   **Customized approach**: the model is designed to fit into the specific culture and workflow of the organization. It encourages the creation of customized action plans based on the specific strengths and weaknesses identified at each level. This personalized approach is key to ensuring that the model is effectively integrated and utilized within the organization​.
--   **Tracking progression and decision-making**: utilizing the model allows projects to track their progression across various dimensions. Achieving a higher level of maturity empowers them to leverage data and metrics for insightful **data and evidence-based decision-making processes**. The success indicators at the earlier stages include:
-    -   increased customer satisfaction
-    -   reduced product defects
-    -   improved operational efficiency, and
-    -   minimized costs associated with reworks​.
 
 ## How much time does the initial review take?
 
@@ -66,20 +40,6 @@ The **recommended improvements** outlined in the quality maturity model are broa
 Through a **comprehensive dashboard**, presenting a radar chart of the current state and a summary review for each dimension. This transparency ensures every stakeholder is aligned and informed.
 
 The radar chart, alongside summary reviews, offers a transparent view of areas of excellence and areas for growth.
-
-## How is success or business value quantified through the implementation of the quality maturity model?
-
-:::info
-
-The results provided by the quality maturity model help increase the **transparency** and **confidence** on the project’s strategy, approaches, current status, and risks. It offers all stakeholders clarity of the product vision, what success looks like, and how success is measured inside the project.
-
-:::
-
-Utilizing the quality maturity model, projects can track their progression across various dimensions and levels. It's essential to note that achieving **level 4** across these dimensions empowers IO's projects to leverage **data and metrics** for insightful decision-making, subsequently measuring the **tangible business value** of diverse initiatives.
-
-Before this stage, success indicators are rooted in the execution of intentional quality strategies. During this crucial period, both the strategic approach to quality and the benchmarks set by the quality maturity model serve as the projects' compass, setting the fastest path to success. They guide the company toward a **data- and evidence-based decision-making process**.
-
-Until that pinnacle is reached, the yardstick for measuring success through quality strategies will primarily be increased customer satisfaction, diminished product defects, elevated operational efficiency, and minimized costs associated with reworks.
 
 ## Why should the initial review process involve various key roles instead of being exclusively conducted by the software engineers in test?
 
@@ -168,19 +128,3 @@ IO's model encourages projects to focus on self-improvement rather than competit
 IO's model not only integrates quality-centric practices within a cultural and operational framework to enhance software development practices across various projects in the organization. It also actively involves key actors from different roles within each project, alongside the **program manager**. This inclusive approach ensures that the project has immediate access to the entire spectrum of knowledge available in the organization.
 
 **This model champions a holistic, well-rounded strategy for growth and continuous improvement**. It is visually represented and strategically crafted to foster significant advancements in software quality, leveraging the collective expertise and collaboration of all involved parties.
-
-## What is the mentors group?
-
-The mentors group, getting inspiration from Cardano's Constitutional Committee approach, consists of independent experts in quality engineering and quality maturity model, ensuring consistent application of the model across all projects.
-
-The mentors group includes all program mentors. This group collectively decides when to grant a specific level to a project and when to approve a new mentor. The aim is the **consistent** application of the model across projects, ensuring there's no room for perceived subjectivity.
-
-### How to become a program mentor?
-
-Becoming a program mentor requires deep knowledge of quality engineering, quality strategy, and the quality maturity model, and then request an existing mentor to be included in the group.
-
-### What are the attributes of a program mentor?
-
-The program mentor, belonging to the Quality Control Initiative (QCI) group, collaborates with squads and projects, providing assistance to help them progress through the ladder/model.
-
-For squads and projects, the program mentor will serve as their point of contact within the larger community of software quality engineering experts.

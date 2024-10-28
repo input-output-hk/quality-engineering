@@ -34,9 +34,10 @@ The model is an essential tool that offers guidance for achieving our ultimate g
 
 ![Example radar chart](/img/quality-maturity-model/radar-chart.png)
 
-Think of our software quality maturity model as a **multi-faceted radar chart**. Each facet, or dimension, represents a critical area of team's capability to build quality software at speed. Each dimension is divided into five levels, ranging from 1 to 5, with level 1 being the basic understanding and level 5 signifying mastery.
+Think of our software quality maturity model as a **multi-faceted radar chart**. Each facet, or dimension, represents a critical area of team's capability to build quality software at speed. 
+Each dimension is divided into five levels, ranging from 1 to 5, with level 1 being the basic understanding and level 5 signifying mastery.
 
-By understanding where each project currently stands on each dimension, it is possible to identify specific areas of improvement, plan actionable improvements, and track progress over time.
+Evaluating projects across multiple dimensions enables us to identify improvement opportunities, implement solutions, and monitor their impact.
 
 In terms of levels within each dimension, it's important to understand the nuanced distinctions that guide a project's maturity journey:
 

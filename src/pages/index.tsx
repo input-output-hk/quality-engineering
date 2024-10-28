@@ -8,7 +8,7 @@ const features = [
 	{
 		title: 'Quality Maturity Model',
 		description:
-			'Our peer-review, evidence-based tool to support projects deliver high-quality products effectively and efficiently.',
+			'Our peer-review and evidence-based tool to support projects deliver high-quality products effectively and efficiently.',
 		image: './img/qmm-icon.png',
 		href: '/docs/quality-maturity-model/overview',
 	},

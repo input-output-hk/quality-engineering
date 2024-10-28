@@ -1,6 +1,7 @@
 ---
 title: Release Readiness Checklist Template
 metaTitle: Release Readiness Checklist Template
+slug: /knowledge-hub/checklists-and-templates/release-readiness-checklist-template
 ---
 
 :::info

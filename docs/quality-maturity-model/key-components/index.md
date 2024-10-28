@@ -4,20 +4,20 @@
 
 At the project level, the review is designed to provide a comprehensive view of the software quality maturity spectrum, focusing on key dimensions that impact the entire software development life cycle. Each dimension serves a unique purpose and collectively paints a holistic picture of the project's maturity and areas of improvement.
 
--   [**Practices & processes**](./practices-processes/index.mdx): assess the consistency, documentation, and clarity of processes and practices across teams at the project level.
--   [**Collaboration & communication**](./collaboration-communication/index.mdx): assess the consistency, clarity, and transparency of inter-team interactions, and decision-making processes at the project level.
--   [**Product specification**](./product-specification/index.mdx): focuses on the clarity of product vision, user experience design, continuous product discovery practices, detailed product specification, and the integration of user and stakeholder feedback into the development process.
--   [**Requirements management**](./requirements-management/index.mdx): this evaluates how effectively the project gathers, prioritizes, and manages user and system requirements, ensuring alignment throughout the development lifecycle.
--   [**Design and architecture**](./design-and-architecture/index.mdx): evaluates the maturity and design and architecture clarity, documentation, maturity, peer review practices, and the integration of product discovery insights.
--   [**Development effectiveness**](./development-effectiveness/index.mdx): a critical dimension that measures the capabilities of a project in terms of coding, design, and implementation.
--   [**Quality control effectiveness**](./quality-control-effectiveness/index.mdx): this dimension focuses on how thoroughly and efficiently a project tests and validates its software products, ensuring they meet the desired quality standards before release.
--   [**Test results reporting**](./test-results-reporting/index.mdx): assess the consistency, clarity, comprehension, and meaningfulness of test results reporting at the project level.
--   [**Security validation**](./security-validation/index.mdx): assesses the rigor, thoroughness, and effectiveness of security measures and their verification processes at the project level.
--   [ **Performance validation**](./performance-validation/index.mdx): gauges the accuracy, comprehensiveness, and effectiveness of evaluating and ensuring optimal system performance.
--   [**Continuous Integration/Continuous Deployment (CI/CD)**](./ci-cd/index.mdx): evaluates the efficiency, reliability, and robustness of CI/CD processes within the development life cycle at the project level.
--   [**Release management**](./release-management/index.mdx): assesses the effectiveness, timeliness, and seamlessness of software release cycles at the project level.
--   [**Continuous Improvement**](./continuous-improvement/index.mdx): examines the commitment to iterative enhancements, responsiveness to feedback, and proactive pursuit of continuous improvement.
--   [**Vendor integration**](./vendor-integration/index.mdx): evaluates the project’s capability and maturity of integrating third-party vendors, tools, or platforms into the product ecosystem.
+-   [**Practices & processes**](./01-practices-processes/index.mdx): assess the consistency, documentation, and clarity of processes and practices across teams at the project level.
+-   [**Collaboration & communication**](./02-collaboration-communication/index.mdx): assess the consistency, clarity, and transparency of inter-team interactions, and decision-making processes at the project level.
+-   [**Product specification**](./03-product-specification/index.mdx): focuses on the clarity of product vision, user experience design, continuous product discovery practices, detailed product specification, and the integration of user and stakeholder feedback into the development process.
+-   [**Requirements management**](./04-requirements-management/index.mdx): this evaluates how effectively the project gathers, prioritizes, and manages user and system requirements, ensuring alignment throughout the development lifecycle.
+-   [**Design and architecture**](./05-design-and-architecture/index.mdx): evaluates the maturity and design and architecture clarity, documentation, maturity, peer review practices, and the integration of product discovery insights.
+-   [**Development effectiveness**](./06-development-effectiveness/index.mdx): a critical dimension that measures the capabilities of a project in terms of coding, design, and implementation.
+-   [**Quality control effectiveness**](./07-quality-control-effectiveness/index.mdx): this dimension focuses on how thoroughly and efficiently a project tests and validates its software products, ensuring they meet the desired quality standards before release.
+-   [**Test results reporting**](./08-test-results-reporting/index.mdx): assess the consistency, clarity, comprehension, and meaningfulness of test results reporting at the project level.
+-   [**Security validation**](./09-security-validation/index.mdx): assesses the rigor, thoroughness, and effectiveness of security measures and their verification processes at the project level.
+-   [ **Performance validation**](./10-performance-validation/index.mdx): gauges the accuracy, comprehensiveness, and effectiveness of evaluating and ensuring optimal system performance.
+-   [**Continuous Integration/Continuous Deployment (CI/CD)**](./11-ci-cd/index.mdx): evaluates the efficiency, reliability, and robustness of CI/CD processes within the development life cycle at the project level.
+-   [**Release management**](./12-release-management/index.mdx): assesses the effectiveness, timeliness, and seamlessness of software release cycles at the project level.
+-   [**Continuous Improvement**](./13-continuous-improvement/index.mdx): examines the commitment to iterative enhancements, responsiveness to feedback, and proactive pursuit of continuous improvement.
+-   [**Vendor integration**](./14-vendor-integration/index.mdx): evaluates the project’s capability and maturity of integrating third-party vendors, tools, or platforms into the product ecosystem.
 
 ## 5 maturity levels
 
@@ -40,10 +40,8 @@ In terms of levels within each dimension, it's important to understand the nuanc
 
 Post-review, a **summary review** and **summary report** would offer a detailed snapshot of project’s quality maturity, paving the way for strategic improvement.
 
-
 ## Recommended improvements
 
 -   Post-review, you will also receive a prioritized list of recommendations per dimension, based on your specific context. These recommendations are designed to be small, actionable, and easy to integrate with your current projects.
-
 
 Additional information is available on the [FAQ page here](../resources/faqs.md).

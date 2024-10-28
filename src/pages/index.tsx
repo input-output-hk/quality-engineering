@@ -8,7 +8,7 @@ const features = [
 	{
 		title: 'Quality Maturity Model',
 		description:
-			'Our peer-review, evidence-based tool to support projects deliver high-quality products effectively and efficiently.',
+			'Our peer-review and evidence-based tool to support projects deliver high-quality products effectively and efficiently.',
 		image: './img/qmm-icon.png',
 		href: '/docs/quality-maturity-model/overview',
 	},
@@ -17,14 +17,14 @@ const features = [
 		description:
 			'A comprehensive tool that guides our projects through the process of envisioning and achieving success.',
 		image: './img/qs-icon.png',
-		href: '/docs/quality-strategy/getting-started',
+		href: 'docs/quality-strategy/understanding-quality-strategy',
 	},
 	{
 		title: 'Knowledge Hub',
 		description:
 			'Central hub for collaborative knowledge sharing and evolving quality engineering strategies, practices, and processes.',
 		image: './img/kb-icon.png',
-		href: '/docs/knowledge-hub/getting-started',
+		href: '/docs/knowledge-hub',
 	},
 ];
 

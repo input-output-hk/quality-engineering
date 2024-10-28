@@ -58,8 +58,7 @@ const config: Config = {
 	],
 
 	themeConfig: {
-		// TODO: Replace with your project's social card
-		// image: 'img/docusaurus-social-card.jpg',
+		image: 'img/social-card.png',
 		colorMode: {
 			disableSwitch: true,
 		},
@@ -68,8 +67,6 @@ const config: Config = {
 			logo: {
 				alt: 'IO Quality Engineering',
 				src: 'img/logo.svg',
-				height: 28,
-				width: 45,
 			},
 			items: [
 				{
@@ -99,6 +96,18 @@ const config: Config = {
 			},
 			copyright: `Copyright © ${new Date().getFullYear()} IOG, Inc.`,
 			links: [
+				{
+					label: 'Report an issue',
+					href: 'https://github.com/input-output-hk/quality-engineering/issues/new?assignees=&labels=bug&projects=&template=issue-report.md&title=',
+				},
+				{
+					label: 'Share feedback',
+					href: 'https://github.com/input-output-hk/quality-engineering/issues/new?assignees=&labels=feedback&projects=&template=feedback.md&title= ',
+				},
+				{
+					label: 'Got a story?',
+					href: 'https://github.com/input-output-hk/quality-engineering/issues/new?assignees=&labels=blog&projects=&template=blog.md&title= ',
+				},
 				{
 					label: 'Cookie Policy',
 					href: 'pathname:///iog-cookie-policy.pdf',

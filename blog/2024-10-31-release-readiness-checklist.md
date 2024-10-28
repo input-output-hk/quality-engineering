@@ -1,6 +1,6 @@
 ---
 slug: release-readiness-checklist
-title: Release Readiness Checklist: A Success Story at IO
+title: "Release Readiness Checklist: A Success Story at IO"
 authors: [dorin]
 tags: [release-strategy]
 ---

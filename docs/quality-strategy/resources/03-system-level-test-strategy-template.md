@@ -8,7 +8,7 @@ relevant.
 :::
 
 Creating a System-Level Test Strategy is a critical task for ensuring that test engineering teams across the
-organisation have a consistent approach to testing that enhances transparency, efficiency, and effectiveness.
+project have a consistent approach to testing that enhances transparency, efficiency, and effectiveness.
 
 This document should serve as a guide for planning, prioritising, executing testing tasks, reporting results, and
 integrating testing outcomes into the broader project lifecycle.

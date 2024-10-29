@@ -79,32 +79,6 @@ The quality strategy should be reviewed by the entire team, including engineers,
 
 The goal is for the team to use a common language and have a shared understanding of the current status, risks, and main concerns, as well as quality criteria, requirements, regulations, and standards to meet, in order to align the team on the quality measures required at each step in the development cycle.
 
-## What is the difference between quality assurance and quality control?
-
-Quality assurance:
-
--   Ensures that the processes and procedures are in place to achieve quality
--   Proactive
--   Process
--   Prevention
--   The team including the stakeholders
--   Throughout the process
-
-Quality control:
-
--   Makes sure that the product meets the requirements and specs before it is released
--   Reactive
--   Product
--   Validation
--   Test engineers, developers, benchmark, community
--   At the testing stage or along with the development process
-
-:::info
-
-Quality assurance (the process) focuses on preventing defects while quality control (the process) focuses on identifying and fixing the defects
-
-:::
-
 ## How much testing is enough to qualify for a software release?
 
 'Enough' testing for a software release is achieved when:
@@ -170,11 +144,11 @@ The procedure typically includes steps such as data backup and recovery, system 
 
 ### A software quality strategy is too time-consuming
 
-While creating a software quality strategy does require some effort, it actually saves time in the long run by helping to prevent issues and streamline the development process.
+While creating a software quality strategy does require some effort, it actually saves time and resources by preventing issues, optimizing development, and accelerating delivery.
 
-By taking the time to plan for quality, organizations can avoid costly mistakes and rework later in the development process. Planning can save significant time and resources in the long run. Additionally, implementing a quality strategy can help to streamline the development process by identifying areas of inefficiency and opportunities for improvement. This can ultimately save time and improve the speed of delivery.
+By taking the time upfront to plan for quality, organizations can avoid costly mistakes and rework later on in the development process. This can save significant time and resources in the long run.
 
-It is also important to note that not having a software quality strategy can be even more time-consuming, as it can lead to a higher number of bugs, longer testing cycles, and delays in release. By having a quality strategy in place, projects can proactively address potential issues and ensure that software is delivered on time and with the desired level of quality.
+Moreover, it is important to note that not having a software quality strategy can be even more time-consuming, as it can lead to a higher number of defects, longer testing cycles, and delays in release. By having a quality strategy in place, teams and projects can proactively address potential issues and ensure that software is delivered on time and with the desired level of quality.
 
 ### A software quality strategy is too expensive
 
@@ -198,8 +172,6 @@ Finally, many aspects of a quality strategy, such as testing and continuous inte
 ### A software quality strategy might hamper the creativity of the development team
 
 The quality strategy serves as a guiding framework for the team/project, highlighting the essential actions required to build top-notch products. However, it doesn't prescribe specific methods or processes. Instead, it empowers the team with the autonomy and creative freedom to determine the best approach and techniques to achieve the desired quality outcomes. This balance ensures that while quality remains a core focus, innovation and adaptability are not compromised.
-
-<img src={require("@site/static/img/quality-strategy/rulebooks-frameworks.png").default} alt="Rulebooks and frameworks" />
 
 ### A software quality strategy is only necessary for large organizations or complex software projects
 

@@ -1,14 +1,8 @@
 # Tips & tricks for creating Quality Strategies
 
-:::info
-
 The objective of the **Quality Strategy** is to ensure that software products are built with quality in mind and to guide the teams and organisations through the validation processes required to deliver high-quality products.
 
 The Quality Strategy should offer a clear overview of the team/tribe's approach to planning, assuring (building), and validating the quality of the software product throughout the software development life cycle (SDLC).
-
-:::
-
-The Quality Strategy does not prescribe how to implement any practice. **The focus is on the outcomes of the practices** rather than on the tools, techniques, and mechanisms to do so. This means that the Quality Strategy can be used by any team or project, regardless of size or sophistication. It can also be used for any type of software development, regardless of technology, platform, programming language, or operating environment.
 
 ## Best practices for creating Quality Strategies
 
@@ -27,3 +21,16 @@ The Quality Strategy does not prescribe how to implement any practice. **The foc
 -   **Write for others to understand**: Remember that the Quality Strategy is intended for all stakeholders to understand, not just yourself or your team.
 -   **If it isn’t important, don’t put it in the strategy**. Not a single word in the strategy should garner a “don’t care” reaction from a potential stakeholder.
 -   **Guide an engineer’s thinking**. A good strategy helps anybody think through functionality and quality needs and logically leads from higher-level concepts to lower-level details that can be directly implemented.
+
+## User-Centric High-Level Software Engineering Strategy Guidelines
+
+Define strategies designed to prioritise the end-user at every stage of the development lifecycle:
+
+-   Define the desired user experience
+-   Translate UX into functional requirements
+-   Design with technology in mind
+-   Implement and test iteratively
+-   Quality assurance and testing across the SDLC
+-   Launch, scale, expand
+-   Documentation and training
+-   Measurement of success

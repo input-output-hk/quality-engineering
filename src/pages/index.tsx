@@ -17,7 +17,7 @@ const features = [
 		description:
 			'A comprehensive tool that guides our projects through the process of envisioning and achieving success.',
 		image: './img/qs-icon.png',
-		href: 'docs/quality-strategy/understanding-quality-strategy',
+		href: 'docs/quality-strategy/overview',
 	},
 	{
 		title: 'Knowledge Hub',

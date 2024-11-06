@@ -5,7 +5,7 @@ authors: [dorin]
 tags: []
 ---
 
-<img align="center" src={require("@site/static/img/blog/001-intro-blog-post.png").default} alt="Welcome to IOG Quality Engineering blog" />
+<img align="center" width="50%" src={require("@site/static/img/blog/001-intro-blog-post.png").default} alt="Welcome to IOG Quality Engineering blog" />
 
 ## Welcome to the Quality Engineering Odyssey!
 

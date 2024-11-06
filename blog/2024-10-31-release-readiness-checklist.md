@@ -10,6 +10,8 @@ At IOG, we're committed to delivering high-quality software that meets the evolv
 Why a Release Readiness Checklist?
 ----------------------------------
 
+<img className="default-sized-image" src={require("@site/static/img/blog/002-release-readiness-checklist-post.png").default} alt="Release checklist IOG image" />
+
 At IOG, we recognize that the transition from development to deployment is a crucial stage in delivering high-quality software to our users. The Release Readiness Checklist is designed to ensure that every step in this transition has been thoroughly completed, validated, and documented before the product goes live. By following this structured approach, teams minimize risks, ensure alignment across all stakeholders, and increase confidence in every release.
 
 Key benefits of the checklist include:

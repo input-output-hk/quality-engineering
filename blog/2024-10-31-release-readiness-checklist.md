@@ -5,12 +5,12 @@ authors: [dorin]
 tags: [release-strategy]
 ---
 
+<img align="center" width="50%" src={require("@site/static/img/blog/002-release-readiness-checklist-post.png").default} alt="Release checklist IOG image" />
+
 At IOG, we're committed to delivering high-quality software that meets the evolving needs of our users. But achieving a smooth and successful product launch requires more than just great code. It demands a meticulous approach to ensure every aspect is thoroughly vetted before release. That's where our Release Readiness Checklist comes in. This powerful tool has become a cornerstone of our release management process, helping teams across the organization achieve greater transparency, reduced risk, and increased efficiency.
 
 Why a Release Readiness Checklist?
 ----------------------------------
-
-<img align="center" width="50%" src={require("@site/static/img/blog/002-release-readiness-checklist-post.png").default} alt="Release checklist IOG image" />
 
 At IOG, we recognize that the transition from development to deployment is a crucial stage in delivering high-quality software to our users. The Release Readiness Checklist is designed to ensure that every step in this transition has been thoroughly completed, validated, and documented before the product goes live. By following this structured approach, teams minimize risks, ensure alignment across all stakeholders, and increase confidence in every release.
 

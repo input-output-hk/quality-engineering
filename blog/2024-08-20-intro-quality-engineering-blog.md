@@ -2,7 +2,7 @@
 slug: intro-quality-engineering-blog
 title: Intro Quality Engineering Blog
 authors: [dorin]
-tags: []
+tags: [quality-strategy]
 ---
 
 <img align="center" width="50%" src={require("@site/static/img/blog/001-intro-blog-post.png").default} alt="Welcome to IOG Quality Engineering blog" />
@@ -10,6 +10,8 @@ tags: []
 ## Welcome to the Quality Engineering Odyssey!
 
 Hello passionate tech enthusiasts, software crafters, and quality advocates! Welcome to our humble abode in the vast digital world – The Quality Engineering Blog. If you’ve found your way here, chances are you’re as obsessed with software quality as we are. But if you're new to the term, fret not! This space is for both newcomers and veterans alike.
+
+<!-- truncate -->
 
 ## Quality is Not an Accident
 

@@ -11,6 +11,8 @@ tags: [Introduction]
 
 Hello passionate tech enthusiasts, software crafters, and quality advocates! Welcome to our humble abode in the vast digital world – The Quality Engineering Blog. If you’ve found your way here, chances are you’re as obsessed with software quality as we are. But if you're new to the term, fret not! This space is for both newcomers and veterans alike.
 
+<!-- truncate -->
+
 ## Quality is Not an Accident
 
 Software quality isn't something that just happens. It’s an intricate ballet of collaboration, taking place across various stages of the Software Development Life Cycle (SDLC). From ideation to deployment, every step requires keen attention, collaboration, and an undying commitment to excellence. This is where Quality Engineering comes in.

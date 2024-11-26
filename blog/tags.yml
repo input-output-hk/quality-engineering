@@ -1,4 +1,9 @@
-quality-strategy:
-  label: Quality Strategy
-  permalink: /quality-strategy
-  description: Quality Strategy tag
+intro:
+  label: Introduction
+  permalink: /intro
+  description: Introduction tag
+
+release-strategy:
+  label: Release Strategy
+  permalink: /release-strategy
+  description: Release Strategy tag

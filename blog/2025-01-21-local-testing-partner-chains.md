@@ -5,7 +5,7 @@ authors: [christos, skylar]
 tags: [Quality Strategy]
 ---
 
-<img align="center" width="50%" src={require("@site/static/img/blog/003-local-testing-partner-chains.png").default} alt="Local testing partner chains" />
+<img align="center" width="100%" src={require("@site/static/img/blog/003-local-testing-partner-chains.png").default} alt="Local testing partner chains" />
 The partner chains local environment. Note that partner-chains-node-3 (Charlie) and partner-chains-node-5 (Eve) are by default passive nodes. If desired for the local testing environment, the tester could add Charlie as permissioned or register Eve.
 
 <!-- truncate -->
@@ -47,7 +47,7 @@ First, we developed a Docker-based demonstration environment packaging all depen
 
 The setup process features an interactive CLI with binary (Y/N) configuration options. Once the artifacts are downloaded, it takes less than 10 minutes to have a functional partner chain from genesis. 
 
-<img align="center" width="50%" src={require("@site/static/img/blog/003-local-testing-partner-chains-2.png").default} alt="Local testing partner chains" />
+<img align="center" width="100%" src={require("@site/static/img/blog/003-local-testing-partner-chains-2.png").default} alt="Local testing partner chains" />
 
 ### Testing framework evolution
 

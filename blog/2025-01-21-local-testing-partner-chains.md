@@ -1,18 +1,15 @@
 ---
 slug: local-testing-partner-chains
-title: 'How local testing transformed the partner chains development lifecycle'
+title: 'Partner Chains Development Lifecycle: Our CI Evolution'
 authors: [christos, skylar]
 tags: [Quality Strategy]
 ---
 
-<img align="center" width="100%" src={require("@site/static/img/blog/003-local-testing-partner-chains.png").default} alt="Local testing partner chains" />
-The partner chains local environment. Note that partner-chains-node-3 (Charlie) and partner-chains-node-5 (Eve) are by default passive nodes. If desired for the local testing environment, the tester could add Charlie as permissioned or register Eve.
-
-<!-- truncate -->
-
 ## Testing requirements: the need for a smaller epoch Cardano network
 
 The partner chains project revealed the criticality of a fast-epoch network for rapid code testing and result analysis.
+
+<!-- truncate -->
 
 ## First iteration: private testnet
 
@@ -32,6 +29,9 @@ These requirements significantly increased both system complexity and test execu
 ## Third iteration: Cardano local cluster breakthrough
 
 The introduction of the Cardano local cluster represented a breakthrough in our testing infrastructure. This solution offered epoch times of two minutes or less and full local network control. With support from the Cardano node team, we managed to get a local network up and running very quickly. Many new possibilities promptly emerged.
+
+<img align="center" width="100%" src={require("@site/static/img/blog/003-local-testing-partner-chains.png").default} alt="Local testing partner chains" />
+The partner chains local environment. Note that partner-chains-node-3 (Charlie) and partner-chains-node-5 (Eve) are by default passive nodes. If desired for the local testing environment, the tester could add Charlie as permissioned or register Eve.
 
 ## Implementation
 
